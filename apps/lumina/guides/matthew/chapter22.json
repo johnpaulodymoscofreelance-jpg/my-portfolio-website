@@ -1,0 +1,363 @@
+{
+  "book": "Matthew",
+  "chapter": "22",
+  "chapter_context": {
+    "summary": "The parable of the wedding banquet, paying taxes to Caesar, and the greatest commandment.",
+    "outline": [
+      {
+        "ref": "22:1-14",
+        "text": "The Parable of the Wedding Banquet",
+        "explanation": "This section focuses on The Parable of the Wedding Banquet (22:1-14), highlighting its theological significance and showing how it develops the central message of Matthew."
+      },
+      {
+        "ref": "22:15-46",
+        "text": "Paying the Imperial Tax and the Greatest Commandment",
+        "explanation": "This section focuses on Paying the Imperial Tax and the Greatest Commandment (22:15-46), highlighting its theological significance and showing how it develops the central message of Matthew."
+      }
+    ]
+  },
+  "cultural_historical": [
+    {
+      "title": "Matthew's Jewish Audience",
+      "text": "Matthew primarily wrote to Jewish Christians, emphasizing Jesus as the long-awaited Messiah who fulfills Old Testament law and prophecy."
+    }
+  ],
+  "key_themes": [
+    {
+      "title": "Love for God and Neighbor",
+      "description": "The two greatest commandments summarize the Law and Prophets."
+    }
+  ],
+  "devotional": [
+    {
+      "question": "What does chapter 22 teach you about the character of Jesus?"
+    },
+    {
+      "question": "How can you apply the teachings of this chapter to your daily life?"
+    }
+  ],
+  "verse_data": {
+    "37": {
+      "commentary": "### Tyndale Study Notes\n22:37 Jesus answers from the Shema (Deut 6:4-9), one of the core statements of God’s covenant with Israel (The first Hebrew word of Deut 6:4-9 is shema‘, “hear”).",
+      "cross_references": [
+        "Deut 6:4"
+      ],
+      "full_commentary": ""
+    },
+    "1": {
+      "commentary": "### Tyndale Study Notes\n22:1-14 In this parable, Israel, having repeatedly rejected God’s word in the past, rejects the Messiah and is judged as a result. In Israel’s place, God raised up the church (16:17-19; 21:43), of which righteousness is also expected (Rom 11:11-24).",
+      "cross_references": [
+        "Rom 11:11"
+      ],
+      "full_commentary": ""
+    },
+    "2": {
+      "commentary": "### Tyndale Study Notes\n22:2 The king represents God, whose son is Jesus (Gal 4:4; Heb 1:1-2). • The feast represents the Kingdom of the Messiah.",
+      "cross_references": [
+        "Gal 4:4",
+        "Heb 1:1"
+      ],
+      "full_commentary": ""
+    },
+    "3": {
+      "commentary": "### Tyndale Study Notes\n22:3-5 Those who were invited refers to the nation of Israel, who ignored God’s servants, the prophets (see study note on Matt 21:33-46).\n\n### Jamieson-Fausset-Brown\nand sent forth his servants--representing all preachers of the Gospel. \n\nto call them that were bidden--here meaning the Jews, who were \"bidden,\" from the first choice of them onwards through every summons addressed to them by the prophets to hold themselves in readiness for the appearing of their King. \n\nto the wedding--or the marriage festivities, when the preparations were all concluded. \n\nand they would not come--as the issue of the whole ministry of the Baptist, our Lord Himself, and His apostles thereafter, too sadly showed.",
+      "cross_references": [
+        "Matt 21:33"
+      ],
+      "full_commentary": ""
+    },
+    "4": {
+      "commentary": "### Jamieson-Fausset-Brown\nmy oxen and my fatlings are killed, and all things are ready; come unto the marriage--This points to those Gospel calls after Christ's death, resurrection, ascension, and effusion of the Spirit, to which the parable could not directly allude, but when only it could be said, with strict propriety, \"that all things were ready.\" Compare Co1 5:7-8, \"Christ our Passover is sacrificed for us; therefore, let us keep the feast\"; also Joh 6:51, \"I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread which I will give is My flesh, which I will give for the life of the world.\"",
+      "cross_references": [
+        "Joh 6:51"
+      ],
+      "full_commentary": ""
+    },
+    "5": {
+      "commentary": "### Jamieson-Fausset-Brown\nBut they made light of it, and went their ways, one to his farm, another to his merchandise:",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "6": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd the remnant took his servants, and entreated them spitefully--insulted them. \n\nand slew them--These are two different classes of unbelievers: the one simply indifferent; the other absolutely hostile--the one, contemptuous scorners; the other, bitter persecutors.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "7": {
+      "commentary": "### Tyndale Study Notes\n22:7 Jesus was alluding to the coming destruction of Jerusalem in AD 70 (see 23:37-39; 24:2).\n\n### Jamieson-Fausset-Brown\nBut when the king--the Great God, who is the Father of our Lord Jesus Christ. \n\nheard thereof, he was wroth--at the affront put both on His Son, and on Himself who had deigned to invite them. \n\nand he sent forth his armies--The Romans are here styled God's armies, just as the Assyrian is styled \"the rod of His anger\" (Isa 10:5), as being the executors of His judicial vengeance. \n\nand destroyed those murderers--and in what vast numbers did they do it! \n\nand burned up their city--Ah! Jerusalem, once \"the city of the Great King\" (Psa 48:2), and even up almost to this time (Mat 5:35); but now it is \"their city\"--just as our Lord, a day or two after this, said of the temple, where God had so long dwelt, \"Behold your house is left unto you desolate\" (Mat 23:38)! Compare Luk 19:43-44.",
+      "cross_references": [
+        "Isa 10:5",
+        "Luk 19:43",
+        "Mat 23:38",
+        "Mat 5:35",
+        "Psa 48:2"
+      ],
+      "full_commentary": ""
+    },
+    "8": {
+      "commentary": "### Tyndale Study Notes\n22:8 Those who reject God’s invitation aren’t worthy to enter his Kingdom (cp. 3:8; 10:13, 37-38).\n\n### Jamieson-Fausset-Brown\nThe wedding is ready, but they which were bidden were not worthy--for how should those be deemed worthy to sit down at His table who had affronted Him by their treatment of His gracious invitation?",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "9": {
+      "commentary": "### Tyndale Study Notes\n22:9 everyone you see: God’s invitation is no longer restricted to the nation of Israel (see 28:16-20; cp. 10:5-6; 15:21-28).\n\n### Jamieson-Fausset-Brown\nGo ye therefore into the highways--the great outlets and thoroughfares, whether of town or country, where human beings are to be found. \n\nand as many as ye shall find, bid to the marriage--that is, just as they are.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "10": {
+      "commentary": "### Tyndale Study Notes\n22:10 good and bad alike: See 13:24-50.\n\n### Jamieson-Fausset-Brown\nSo those servants went out into the highways, and gathered together all as many as they found, both bad and good--that is, without making any distinction between open sinners and the morally correct. The Gospel call fetched in Jews, Samaritans, and outlying heathen alike. Thus far the parable answers to that of \"the Great Supper\" (Luk 14:16, &c.). But the distinguishing feature of our parable is what follows:",
+      "cross_references": [
+        "Luk 14:16",
+        "See 13:24"
+      ],
+      "full_commentary": ""
+    },
+    "11": {
+      "commentary": "### Tyndale Study Notes\n22:11 The proper clothes correspond to spiritual fruit that demonstrates real faith (see 7:13-27).\n\n### Jamieson-Fausset-Brown\nAnd when the king came in to see the guests--Solemn expression this, of that omniscient inspection of every professed disciple of the Lord Jesus from age to age, in virtue of which his true character will hereafter be judicially proclaimed! \n\nhe saw there a man--This shows that it is the judgment of individuals which is intended in this latter part of the parable: the first part represents rather national judgment. \n\nwhich had not on a wedding garment--The language here is drawn from the following remarkable passage in Zep 1:7-8 : --\"Hold thy peace at the presence of the Lord God; for the day of the Lord is at hand: for the Lord hath prepared a sacrifice, He hath bid His guests. And it shall come to pass in the day of the Lord's sacrifice, that I will punish the princes, and the king's children, and all such as are clothed with strange apparel.\" The custom in the East of presenting festival garments (see Gen 45:22; Kg2 5:22), even though nor clearly proved, Is certainly presupposed here. It undoubtedly means something which they bring not of their own--for how could they have any such dress who were gathered in from the highways indiscriminately?--but which they receive as their appropriate dress. And what can that be but what is meant by \"putting on the Lord Jesus,\" as \"THE LORD OUR RIGHTEOUSNESS?\" (See Psa 45:13-14). Nor could such language be strange to those in whose ears had so long resounded those words of prophetic joy: \"I will greatly rejoice in the Lord, my soul shall be joyful in my God; for He hath clothed me with the garments of salvation, He hath covered me with the robe of righteousness, as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels\" (Isa 61:10).",
+      "cross_references": [
+        "Gen 45:22",
+        "Isa 61:10",
+        "Psa 45:13",
+        "Zep 1:7"
+      ],
+      "full_commentary": ""
+    },
+    "12": {
+      "commentary": "### Jamieson-Fausset-Brown\nFriend, how camest thou in hither, not having a wedding garment? And he was speechless--being self-condemned.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "13": {
+      "commentary": "### Tyndale Study Notes\n22:13 Weeping and gnashing of teeth express the intense pain and sorrow that result from condemnation for sin and unbelief (see 8:12; 13:42, 50; 24:51; 25:30). • Outer darkness is a metaphor for eternal punishment.\n\n### Jamieson-Fausset-Brown\nThen said the king to the servants--the angelic ministers of divine vengeance (as in Mat 13:41). \n\nBind him hand and foot--putting it out of his power to resist. \n\nand take him away, and cast him into outer darkness--So Mat 8:12; Mat 25:30. The expression is emphatic--\"the darkness which is outside.\" To be \"outside\" at all--or, in the language of Rev 22:15, to be \"without\" the heavenly city, excluded from its joyous nuptials and gladsome festivities--is sad enough of itself, without anything else. But to find themselves not only excluded from the brightness and glory and joy and felicity of the kingdom above, but thrust into a region of \"darkness,\" with all its horrors, this is the dismal retribution here announced, that awaits the unworthy at the great day. \n\nthere--in that region and condition. \n\nshall be weeping and gnashing of teeth. See on Mat 13:42.",
+      "cross_references": [
+        "Mat 13:41",
+        "Mat 13:42",
+        "Mat 25:30",
+        "Mat 8:12",
+        "Rev 22:15"
+      ],
+      "full_commentary": ""
+    },
+    "14": {
+      "commentary": "### Tyndale Study Notes\n22:14 While many people are called—they hear the invitation to the Kingdom—few are actually chosen by God and respond in faithful obedience to Jesus.\n\n### Jamieson-Fausset-Brown\nFor many are called, but few are chosen--So Mat 19:30. See on Mat 20:16.\n\n\n\n\nNext: Matthew Chapter 23",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 20:16"
+      ],
+      "full_commentary": ""
+    },
+    "15": {
+      "commentary": "### Tyndale Study Notes\n22:15-22 Roman taxation was a controversial issue in first-century Palestine (see also 17:24-27).",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "16": {
+      "commentary": "### Tyndale Study Notes\n22:16 The Pharisees, strict nationalists who resented Roman rule, were normally at odds with the supporters of Herod. Here, the unlikely alliance arose from a mutual hatred of Jesus.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "17": {
+      "commentary": "### Tyndale Study Notes\n22:17 Is it right . . . or not? The question was designed to trap Jesus. If he answered no, he could be arrested for rebellion against Rome. If he answered yes, he could be accused of supporting Roman oppression.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "18": {
+      "commentary": "### Tyndale Study Notes\n22:18 You hypocrites! See study note on 23:13.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "19": {
+      "commentary": "### Tyndale Study Notes\n22:18 You hypocrites! See study note on 23:13.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "20": {
+      "commentary": "### Tyndale Study Notes\n22:20 The poll tax had to be paid using the denarius coin, which bore the picture and title of Caesar. Old Testament prohibitions against images (Exod 20:4; Lev 26:1; Deut 4:15-24) made the use of this coin controversial among Jews (see Josephus, War 2.9.2-3). Some Roman procurators apparently produced coins without images for use in Palestine in order not to offend the Jewish conscience.",
+      "cross_references": [
+        "Deut 4:15",
+        "Exod 20:4",
+        "Lev 26:1"
+      ],
+      "full_commentary": ""
+    },
+    "21": {
+      "commentary": "### Tyndale Study Notes\n22:21 Jesus outwitted his opponents by affirming the honor due to Caesar, while clearly differentiating it from the supreme honor and allegiance due to God. Loyalty to God does not necessarily entail disloyalty to the governing authorities. Jesus was acknowledging two dominions, Caesar’s and God’s, the latter having priority (Acts 4:19).",
+      "cross_references": [
+        "Acts 4:19"
+      ],
+      "full_commentary": ""
+    },
+    "22": {
+      "commentary": "### Tyndale Study Notes\n22:21 Jesus outwitted his opponents by affirming the honor due to Caesar, while clearly differentiating it from the supreme honor and allegiance due to God. Loyalty to God does not necessarily entail disloyalty to the governing authorities. Jesus was acknowledging two dominions, Caesar’s and God’s, the latter having priority (Acts 4:19).",
+      "cross_references": [
+        "Acts 4:19"
+      ],
+      "full_commentary": ""
+    },
+    "23": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "24": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "25": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "26": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "27": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "28": {
+      "commentary": "### Tyndale Study Notes\n22:23-33 The resurrection was an important issue of Jesus’ day, but the question was raised only to trap Jesus.\n22:23 The Sadducees (see 3:7) described a situation involving levirate marriage (see Gen 38:6-11; Deut 25:5-6), which they considered proof that resurrection from the dead is not possible.",
+      "cross_references": [
+        "Deut 25:5",
+        "Gen 38:6"
+      ],
+      "full_commentary": ""
+    },
+    "29": {
+      "commentary": "### Tyndale Study Notes\n22:29 The power of God most likely refers to God’s ability to raise the dead.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "30": {
+      "commentary": "### Tyndale Study Notes\n22:30 like the angels in heaven: Jesus was not teaching genderlessness (i.e., androgyny) nor disparaging the divine order of marriage and sexuality; rather, he was affirming that people will be transformed into a glorious new existence (see 1 Cor 15:35-49; 2 Cor 5:1-5) in which aspects of the present order, such as marriage, will not be present.",
+      "cross_references": [
+        "Cor 15:35",
+        "Cor 5:1"
+      ],
+      "full_commentary": ""
+    },
+    "31": {
+      "commentary": "### Tyndale Study Notes\n22:31-32 Since God spoke of being the God of Abraham in the present tense, this proves that Abraham still lives and thus that there is a resurrection.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "32": {
+      "commentary": "### Tyndale Study Notes\n22:31-32 Since God spoke of being the God of Abraham in the present tense, this proves that Abraham still lives and thus that there is a resurrection.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "33": {
+      "commentary": "### Tyndale Study Notes\n22:31-32 Since God spoke of being the God of Abraham in the present tense, this proves that Abraham still lives and thus that there is a resurrection.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "34": {
+      "commentary": "### Tyndale Study Notes\n22:31-32 Since God spoke of being the God of Abraham in the present tense, this proves that Abraham still lives and thus that there is a resurrection.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "35": {
+      "commentary": "### Tyndale Study Notes\n22:31-32 Since God spoke of being the God of Abraham in the present tense, this proves that Abraham still lives and thus that there is a resurrection.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "36": {
+      "commentary": "### Tyndale Study Notes\n22:36 Since many strict Jews saw all commandments as equally binding, a careless response to this question could lead to the accusation of undermining the law of God.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "38": {
+      "commentary": "### Tyndale Study Notes\n22:37 Jesus answers from the Shema (Deut 6:4-9), one of the core statements of God’s covenant with Israel (The first Hebrew word of Deut 6:4-9 is shema‘, “hear”).",
+      "cross_references": [
+        "Deut 6:4"
+      ],
+      "full_commentary": ""
+    },
+    "39": {
+      "commentary": "### Tyndale Study Notes\n22:39 Love your neighbor as yourself: Lev 19:18; see also Rom 13:9; Gal 5:6, 14; Jas 2:8.",
+      "cross_references": [
+        "Gal 5:6",
+        "Jas 2:8",
+        "Lev 19:18",
+        "Rom 13:9"
+      ],
+      "full_commentary": ""
+    },
+    "40": {
+      "commentary": "### Tyndale Study Notes\n22:40 are based on: Jesus’ statement affirmed the unity and coherence of God’s will, as recorded in Scripture.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "41": {
+      "commentary": "### Tyndale Study Notes\n22:41-46 Having successfully defended himself against his opponents’ traps (21:23–22:40), Jesus questioned them as to how the Messiah can be called both the son of David and, at the same time, the Lord of David (Ps 110:1).",
+      "cross_references": [
+        "Ps 110:1"
+      ],
+      "full_commentary": ""
+    },
+    "42": {
+      "commentary": "### Tyndale Study Notes\n22:42 the son of David: See study note on Matt 9:27; see also 2 Sam 7:12-14; Pss 2:7-9; 110; Isa 11:1, 10; Jer 23:5-6.",
+      "cross_references": [
+        "Isa 11:1",
+        "Jer 23:5",
+        "Matt 9:27",
+        "Pss 2:7",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "43": {
+      "commentary": "### Tyndale Study Notes\n22:42 the son of David: See study note on Matt 9:27; see also 2 Sam 7:12-14; Pss 2:7-9; 110; Isa 11:1, 10; Jer 23:5-6.",
+      "cross_references": [
+        "Isa 11:1",
+        "Jer 23:5",
+        "Matt 9:27",
+        "Pss 2:7",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "44": {
+      "commentary": "### Tyndale Study Notes\n22:44 The quotation is from Ps 110:1, which is frequently cited by New Testament authors to describe Jesus (see Acts 2:34-35; 1 Cor 15:25; Heb 1:13; 2:8; 10:12-13; Rev 3:21).",
+      "cross_references": [
+        "Acts 2:34",
+        "Cor 15:25",
+        "Heb 1:13",
+        "Ps 110:1",
+        "Rev 3:21"
+      ],
+      "full_commentary": ""
+    },
+    "45": {
+      "commentary": "### Tyndale Study Notes\n22:45 how can the Messiah be his son? The answer is that Jesus is more than the son of David: He is the Son of God (14:33).",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "46": {
+      "commentary": "### Tyndale Study Notes\n22:46 No one could answer him because they had never thought the Messiah would be God as a human being in the flesh (see John 1:1-14).",
+      "cross_references": [
+        "John 1:1"
+      ],
+      "full_commentary": ""
+    }
+  }
+}

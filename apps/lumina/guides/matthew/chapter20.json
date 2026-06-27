@@ -1,0 +1,286 @@
+{
+  "book": "Matthew",
+  "chapter": "20",
+  "chapter_context": {
+    "summary": "The parable of the workers in the vineyard, and Jesus predicts His death a third time.",
+    "outline": [
+      {
+        "ref": "20:1-16",
+        "text": "The Parable of the Workers in the Vineyard",
+        "explanation": "This section focuses on The Parable of the Workers in the Vineyard (20:1-16), highlighting its theological significance and showing how it develops the central message of Matthew."
+      },
+      {
+        "ref": "20:17-34",
+        "text": "A Mother's Request and Two Blind Men Healed",
+        "explanation": "This section focuses on A Mother's Request and Two Blind Men Healed (20:17-34), highlighting its theological significance and showing how it develops the central message of Matthew."
+      }
+    ]
+  },
+  "cultural_historical": [
+    {
+      "title": "Matthew's Jewish Audience",
+      "text": "Matthew primarily wrote to Jewish Christians, emphasizing Jesus as the long-awaited Messiah who fulfills Old Testament law and prophecy."
+    }
+  ],
+  "key_themes": [
+    {
+      "title": "Servant Leadership",
+      "description": "Greatness in God's kingdom means being a servant."
+    }
+  ],
+  "devotional": [
+    {
+      "question": "What does chapter 20 teach you about the character of Jesus?"
+    },
+    {
+      "question": "How can you apply the teachings of this chapter to your daily life?"
+    }
+  ],
+  "verse_data": {
+    "28": {
+      "commentary": "### Tyndale Study Notes\n20:28 This expression, the Son of Man came, suggests Jesus’ preexistence (see Dan 7:13-14). • Jesus was describing his voluntary offering of himself as a ransom for many, to pay the debt all people owe (see Matt 26:26-29; Isa 53:10-12; Rom 3:24), thereby buying them out of slavery (see Gal 5:1).",
+      "cross_references": [
+        "Dan 7:13",
+        "Gal 5:1",
+        "Isa 53:10",
+        "Matt 26:26",
+        "Rom 3:24"
+      ],
+      "full_commentary": ""
+    },
+    "1": {
+      "commentary": "### Tyndale Study Notes\n20:1-16 This parable is similar to the parable of the Lost Son (Luke 15:11-32). In both, God’s grace is shown to two parties while one grumbles about unjust treatment.",
+      "cross_references": [
+        "Luke 15:11"
+      ],
+      "full_commentary": ""
+    },
+    "2": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd when he had agreed with the labourers for a penny--a usual day's hire. \n\nhe sent them into his vineyard.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "3": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd he went out about the third hour--about nine o'clock, or after a fourth of the working day had expired: the day of twelve hours was reckoned from six to six. \n\nand saw others standing idle in the market place--unemployed.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "4": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd said unto them, Go ye also into the vineyard; and whatsoever is right--just, equitable, in proportion to their time. \n\nI will give you. And they went their way.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "5": {
+      "commentary": "### Jamieson-Fausset-Brown\nAgain he went out about the sixth and ninth hour--about noon, and about three o'clock in the afternoon. \n\nand did likewise--hiring and sending into his vineyard fresh laborers each time.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "6": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd about the eleventh hour--but one hour before the close of the working day; a most unusual hour both for offering and engaging \n\nand found others standing idle, and saith, Why stand ye here all the day idle?--Of course they had not been there, or not been disposed to offer themselves at the proper time; but as they were now willing, and the day was not over, and \"yet there was room,\" they also are engaged, and on similar terms with all the rest.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "7": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd about the eleventh hour--but one hour before the close of the working day; a most unusual hour both for offering and engaging \n\nand found others standing idle, and saith, Why stand ye here all the day idle?--Of course they had not been there, or not been disposed to offer themselves at the proper time; but as they were now willing, and the day was not over, and \"yet there was room,\" they also are engaged, and on similar terms with all the rest.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "8": {
+      "commentary": "### Tyndale Study Notes\n20:8 Payment followed the day’s work (Deut 24:14-15).\n\n### Jamieson-Fausset-Brown\nSo when even was come--that is, the reckoning time between masters and laborers (see Deu 24:15); pointing to the day of final account. \n\nthe lord of the vineyard saith unto his steward--answering to Christ Himself, represented \"as a Son over His own house\" (Heb 3:6; see Mat 11:27; Joh 3:35; Joh 5:27). \n\nCall the labourers and give them their hire, beginning from the last unto the first--Remarkable direction this--last hired, first paid.",
+      "cross_references": [
+        "Deu 24:15",
+        "Deut 24:14",
+        "Heb 3:6",
+        "Joh 3:35",
+        "Joh 5:27",
+        "Mat 11:27"
+      ],
+      "full_commentary": ""
+    },
+    "9": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd when they came that were hired about the eleventh hour, they received every man a penny--a full day's wages.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "10": {
+      "commentary": "### Jamieson-Fausset-Brown\nBut when the first came, they supposed that they should have received more--This is that calculating, mercenary spirit which had peeped out--though perhaps very slightly--in Peter's question (Mat 19:27), and which this parable was designed once for all to put down among the servants of Christ.",
+      "cross_references": [
+        "Mat 19:27"
+      ],
+      "full_commentary": ""
+    },
+    "11": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd when they had received it, they murmured against the goodman of the house--rather, \"the householder,\" the word being the same as in Mat 20:1.",
+      "cross_references": [
+        "Mat 20:1"
+      ],
+      "full_commentary": ""
+    },
+    "12": {
+      "commentary": "### Jamieson-Fausset-Brown\nSaying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat--the burning heat. \n\nof the day--who have wrought not only longer but during a more trying period of the day.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "13": {
+      "commentary": "### Jamieson-Fausset-Brown\nBut he answered one of them--doubtless the spokesman of the complaining party. \n\nand said, Friend, I do thee no wrong: didst not thou agree with me for a penny? &c.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "14": {
+      "commentary": "### Jamieson-Fausset-Brown\nBut he answered one of them--doubtless the spokesman of the complaining party. \n\nand said, Friend, I do thee no wrong: didst not thou agree with me for a penny? &c.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "15": {
+      "commentary": "### Jamieson-Fausset-Brown\nIs it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?--that is, \"You appeal to justice, and by that your mouth is shut; for the sum you agreed for is paid you. Your case being disposed of, with the terms I make with other laborers you have nothing to do; and to grudge the benevolence shown to others, when by your own admission you have been honorably dealt with, is both unworthy envy of your neighbor, and discontent with the goodness that engaged and rewarded you in his service at all.\"",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "16": {
+      "commentary": "### Tyndale Study Notes\n20:16 See Matt 5:19; 8:11-12.\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Matt 5:19"
+      ],
+      "full_commentary": ""
+    },
+    "17": {
+      "commentary": "### Tyndale Study Notes\n20:16 See Matt 5:19; 8:11-12.\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Matt 5:19"
+      ],
+      "full_commentary": ""
+    },
+    "18": {
+      "commentary": "### Tyndale Study Notes\n20:16 See Matt 5:19; 8:11-12.\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Matt 5:19"
+      ],
+      "full_commentary": ""
+    },
+    "19": {
+      "commentary": "### Tyndale Study Notes\n20:16 See Matt 5:19; 8:11-12.\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Matt 5:19"
+      ],
+      "full_commentary": ""
+    },
+    "20": {
+      "commentary": "### Tyndale Study Notes\n20:20-28 Each prediction of Jesus’ suffering in Matthew is connected to instruction on the nature of discipleship in light of that suffering (see 16:24-28; 17:24–18:5). This teaching called the Messiah’s disciples to follow his example of service and sacrifice.\n20:20-21 This mother’s question appears to have been inspired by her sons, since Jesus responded to the sons rather than to the mother (cp. Mark 10:35-37).",
+      "cross_references": [
+        "Mark 10:35"
+      ],
+      "full_commentary": ""
+    },
+    "21": {
+      "commentary": "### Tyndale Study Notes\n20:21 The promise of sitting in positions of authority in God’s Kingdom had already been given (19:28); the brothers’ request seems to have been motivated out of selfish desire for prominence, with no regard for the suffering the Messiah would soon undergo (see Matt 23:6; Luke 14:7-11).",
+      "cross_references": [
+        "Luke 14:7",
+        "Matt 23:6"
+      ],
+      "full_commentary": ""
+    },
+    "22": {
+      "commentary": "### Tyndale Study Notes\n20:22 The cup refers to Jesus’ duty, calling, and destiny (see 26:39; John 18:11; see also Ps 75:8; Isa 51:17, 22; Rev 16:19).",
+      "cross_references": [
+        "Isa 51:17",
+        "John 18:11",
+        "Ps 75:8",
+        "Rev 16:19"
+      ],
+      "full_commentary": ""
+    },
+    "23": {
+      "commentary": "### Tyndale Study Notes\n20:23 You will indeed: James was eventually martyred (Acts 12:2), and John suffered significant persecution (Acts 4:3; 5:40; Rev 1:9).",
+      "cross_references": [
+        "Acts 12:2",
+        "Acts 4:3",
+        "Rev 1:9"
+      ],
+      "full_commentary": ""
+    },
+    "24": {
+      "commentary": "### Tyndale Study Notes\n20:24 The other disciples . . . were indignant: Selfish ambition was apparently not unique to James and John (see also 21:15; 26:8; Luke 13:14).",
+      "cross_references": [
+        "Luke 13:14"
+      ],
+      "full_commentary": ""
+    },
+    "25": {
+      "commentary": "### Tyndale Study Notes\n20:25-28 The desire for power is characteristic of pagan rulers in this world. It ought not to be a trait of those who follow the Son of Man (18:1-5; 19:13-15; 23:1-12).",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "26": {
+      "commentary": "### Tyndale Study Notes\n20:25-28 The desire for power is characteristic of pagan rulers in this world. It ought not to be a trait of those who follow the Son of Man (18:1-5; 19:13-15; 23:1-12).",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "27": {
+      "commentary": "### Tyndale Study Notes\n20:27 The word slave is a common metaphor for the submissive relationship of a disciple to his master (8:9; 10:24-25; 24:45-51; 25:14-30). Jesus’ disciples serve others, following Jesus’ example (e.g., John 13:1-17).",
+      "cross_references": [
+        "John 13:1"
+      ],
+      "full_commentary": ""
+    },
+    "29": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).",
+      "cross_references": [
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "30": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "31": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "32": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "33": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    },
+    "34": {
+      "commentary": "### Tyndale Study Notes\n20:29-34 The blind men’s expression of faith in the Son of David was an acknowledgment of Jesus as the Messiah (see 21:9; 22:42; 2 Sam 7:12-16).\n\n### Jamieson-Fausset-Brown\nSo the last shall be first, and the first last--that is, \"Take heed lest by indulging the spirit of these murmurers at the penny given to the last hired, ye miss your own penny, though first in the vineyard; while the consciousness of having come in so late may inspire these last with such a humble frame, and such admiration of the grace that has hired and rewarded them at all, as will put them into the foremost place in the end.\" \n\nfor many be called, but few chosen--This is another of our Lord's terse and pregnant sayings, more than once uttered in different connections. (See Mat 19:30; Mat 22:14). The \"calling\" of which the New Testament almost invariably speaks is what divines call effectual calling, carrying with it a supernatural operation on the will to secure its consent. But that cannot be the meaning of it here; the \"called\" being emphatically distinguished from the \"chosen.\" It can only mean here the \"invited.\" And so the sense is, Many receive the invitations of the Gospel whom God has never \"chosen to salvation through sanctification of the Spirit and belief of the truth\" (Th2 2:13). But what, it may be asked, has this to do with the subject of our parable? Probably this--to teach us that men who have wrought in Christ's service all their days may, by the spirit which they manifest at the last, make it too evident that, as between God and their own souls, they never were chosen workmen at all.\n\n\n\n\nNext: Matthew Chapter 21",
+      "cross_references": [
+        "Mat 19:30",
+        "Mat 22:14",
+        "Sam 7:12"
+      ],
+      "full_commentary": ""
+    }
+  }
+}

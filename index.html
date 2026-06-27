@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Mobile Header Toggle Bar -->
+  <div class="mobile-top-bar">
+    <button id="menu-toggle-btn" class="menu-toggle-btn" aria-label="Toggle Navigation">
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+    <div class="mobile-logo">John Paul</div>
+  </div>
+
+  <div class="dashboard-layout">
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <!-- 1. Primary Sidebar (Narrow column, Deep Burgundy) -->
+    <aside class="sidebar-primary">
+      <div class="brand-avatar">JP</div>
+      <nav class="nav-primary">
+        <button class="nav-item active" data-tab="home" title="Overview">
+          <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+            fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+        </button>
+        <button class="nav-item" data-tab="projects" title="Works & Projects">
+          <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+            fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+        </button>
+
+        <button class="nav-item" data-tab="contact" title="Get in touch">
+          <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+            fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </button>
+      </nav>
+      <div class="sidebar-primary-bottom">
+        <button id="theme-toggle-btn" class="sidebar-btn" title="Toggle Light/Dark Theme">
+          <svg class="icon sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="https://github.com/johnpaulodymoscofreelance-jpg" target="_blank" title="GitHub Profile">
+          <svg class="icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+            fill="none">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </aside>
+
+    <!-- 2. Secondary Sidebar (Medium column, Beige navigation/filters) -->
+    <aside class="sidebar-secondary">
+      <div class="sidebar-sec-header">
+        <h3 id="sidebar-sec-title">Overview</h3>
+        <button id="sidebar-close-btn" class="sidebar-close-btn" aria-label="Close sidebar">&times;</button>
+      </div>
+      <div class="sidebar-sec-content">
+        <div id="sidebar-dynamic-nav">
+          <!-- Populated dynamically by app.js depending on active primary tab -->
+        </div>
+
+        <!-- Call-to-action Hire Card -->
+        <div class="hire-card">
+          <div class="hire-card-icon">💼</div>
+          <h4>Available for Hire</h4>
+          <p>Looking for a Mobile Engineer? Let's build together.</p>
+          <button class="btn btn-primary btn-hire" id="sidebar-hire-btn">Hire Me Now</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 3. Main Content Area (White background) -->
+    <main class="main-content-pane">
+
+      <!-- VIEW 1: Overview / Home -->
+      <section id="view-home" class="tab-view active">
+        <div class="view-content-wrapper">
+          <!-- Subtab 1: About Me -->
+          <div id="home-about" class="subtab-content active">
+            <div class="subtab-header">
+              <h3 class="subtab-title">About <span class="accent-serif">Me</span></h3>
+            </div>
+            <div class="about-hero">
+              <div class="hero-waves-container">
+                <svg class="hero-waves wave-1" viewBox="0 0 1440 400" preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#0055ff" stop-opacity="0.45" />
+                      <stop offset="100%" stop-color="#001144" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#grad-blue)" d="M0 120 Q 360 280, 720 120 T 1440 120 L 1440 400 L 0 400 Z" />
+                </svg>
+                <svg class="hero-waves wave-2" viewBox="0 0 1440 400" preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="grad-red" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.38" />
+                      <stop offset="100%" stop-color="#330000" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#grad-red)" d="M0 180 Q 400 40, 800 200 T 1440 180 L 1440 400 L 0 400 Z" />
+                </svg>
+                <svg class="hero-waves wave-3" viewBox="0 0 1440 400" preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="grad-blend" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#0055ff" stop-opacity="0.3" />
+                      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.3" />
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#grad-blend)" d="M0 240 Q 300 340, 700 200 T 1440 240 L 1440 400 L 0 400 Z"
+                    style="mix-blend-mode: screen; opacity: 0.65;" />
+                </svg>
+              </div>
+
+              <div class="about-text">
+                <p class="lead-text">Hi, I'm John Paul. I specialize in designing and engineering high-performance,
+                  local-first mobile applications with React Native and Expo.</p>
+                <p>My development philosophy centers around simplicity, performance, and user ownership of data. I build
+                  products that feel alive, responsive, and run seamlessly offline without cloud dependencies.</p>
+                <div class="cta-buttons">
+                  <button class="btn btn-primary" data-go-to="projects">Browse My Work</button>
+                  <button class="btn btn-outline" data-go-to="contact">Let's Connect</button>
+                </div>
+              </div>
+              <div class="about-features-grid">
+                <div class="about-feat-card color-blue">
+                  <span class="feat-icon">
+                    <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"
+                      class="feat-svg">
+                      <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                      <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                    </svg>
+                  </span>
+                  <h5>Mobile Architect</h5>
+                  <p>Building high-performance React Native & Expo mobile platforms.</p>
+                </div>
+                <div class="about-feat-card color-red">
+                  <span class="feat-icon">
+                    <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"
+                      class="feat-svg">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                      <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                    </svg>
+                  </span>
+                  <h5>Local-First Advocate</h5>
+                  <p>Creating SQLite and Markdown databases that preserve total privacy.</p>
+                </div>
+                <div class="about-feat-card color-blue">
+                  <span class="feat-icon">
+                    <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"
+                      class="feat-svg">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                  </span>
+                  <h5>Performance Driven</h5>
+                  <p>Optimizing startup, render times, and micro-interactions.</p>
+                </div>
+                <div class="about-feat-card color-red">
+                  <span class="feat-icon">
+                    <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none"
+                      class="feat-svg">
+                      <rect x="3" y="3" width="7" height="9"></rect>
+                      <rect x="14" y="3" width="7" height="5"></rect>
+                      <rect x="14" y="12" width="7" height="9"></rect>
+                      <rect x="3" y="16" width="7" height="5"></rect>
+                    </svg>
+                  </span>
+                  <h5>UI/UX Detailer</h5>
+                  <p>Polishing layouts, transitions, and glassmorphic designs.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Work Experience Section inside About Me -->
+            <div class="about-section-divider"></div>
+            <div class="about-sub-section">
+              <div class="subtab-header">
+                <h3 class="subtab-title">Work <span class="accent-serif">Experience</span></h3>
+              </div>
+              <div class="timeline-container">
+                <!-- 1-Logistics Phils -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h4>Product Designer and Project Manager</h4>
+                    <span class="timeline-date">3 Years · Philippines</span>
+                  </div>
+                  <p class="timeline-company">1-Logistics Phils</p>
+                  <ul class="timeline-bullets">
+                    <li>Project based designs that caters Business Branding and Franchising Designs.</li>
+                    <li>Working on Advertising and Media Management.</li>
+                    <li>Includes Company Logo Design, Marketing Designs, Printing Materials such as Flyers, Business Cards, Product Labels, Store Designs, and Content Creations.</li>
+                  </ul>
+                </div>
+                <!-- Dyenamix Digital Printing & Design -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h4>Lead Designer / Freelancer</h4>
+                    <span class="timeline-date">3 Years · Philippines</span>
+                  </div>
+                  <p class="timeline-company">Dyenamix Digital Printing & Design</p>
+                  <ul class="timeline-bullets">
+                    <li>Working on Print and Design Products, such as Business Banners, Flyers, Packaging, and other business branding materials needed for marketing and product advertising.</li>
+                    <li>Working with clients that need Advertising and Marketing designs to use in Business Page, Website and other E-commerce platforms.</li>
+                    <li>Working on Branding and Business Identity designs.</li>
+                  </ul>
+                </div>
+                <!-- Kronictron -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h4>Freelance Project Designer</h4>
+                    <span class="timeline-date">1 Year · Canada</span>
+                  </div>
+                  <p class="timeline-company">Kronictron</p>
+                  <ul class="timeline-bullets">
+                    <li>Working on project based designs that is use for E-commerce, Marketing & Advertising.</li>
+                    <li>Product design that is used for Amazon Online Market Place.</li>
+                    <li>Working on Brand Labels & Packaging Designs.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills & Technologies Section inside About Me -->
+            <div class="about-section-divider"></div>
+            <div class="about-sub-section">
+              <div class="subtab-header">
+                <h3 class="subtab-title">Skills & <span class="accent-serif">Technologies</span></h3>
+              </div>
+              <h4 class="skills-group-title">Web Designing</h4>
+              <div class="skills-layout-grid">
+                <div class="skills-category-card">
+                  <h4>Web Design & Layout</h4>
+                  <ul class="skills-list-items">
+                    <li>Figma Web Layouts</li>
+                    <li>Landing Page Mockups</li>
+                    <li>Desktop & Mobile Wireframes</li>
+                    <li>Auto-layout Design Systems</li>
+                    <li>Design System Libraries</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Responsive Frameworks</h4>
+                  <ul class="skills-list-items">
+                    <li>HTML5 & Vanilla CSS</li>
+                    <li>Tailwind CSS & Bootstrap</li>
+                    <li>Flexbox & CSS Grid Systems</li>
+                    <li>Media Queries & Breakpoints</li>
+                    <li>Responsive Typography & Spacing</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>No-Code & CMS Platforms</h4>
+                  <ul class="skills-list-items">
+                    <li>Webflow Development</li>
+                    <li>WordPress & Elementor</li>
+                    <li>Custom CMS Integrations</li>
+                    <li>Web Animations & Interactions</li>
+                    <li>Framer & Squarespace</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Web Optimization</h4>
+                  <ul class="skills-list-items">
+                    <li>SEO Semantics & Tagging</li>
+                    <li>Asset Compression & Loading</li>
+                    <li>Core Web Vitals Performance</li>
+                    <li>Responsive Image Formats</li>
+                    <li>Lighthouse Audit Optimization</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Web Hosting & Operations</h4>
+                  <ul class="skills-list-items">
+                    <li>DNS & Domain Mapping</li>
+                    <li>Netlify, Vercel & GitHub Pages</li>
+                    <li>Cloudflare & SSL Setup</li>
+                    <li>Google Analytics & Tag Manager</li>
+                    <li>Web Server Configuration</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="skills-section-divider"></div>
+
+              <h4 class="skills-group-title">App Development & Engineering</h4>
+              <div class="skills-layout-grid">
+                <div class="skills-category-card">
+                  <h4>Mobile Development</h4>
+                  <ul class="skills-list-items">
+                    <li>React Native (Core)</li>
+                    <li>Expo SDK & Config Plugins</li>
+                    <li>React Native Web</li>
+                    <li>Metro Bundler Configurations</li>
+                    <li>Android Gradle & CLI Tools</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Languages & Frontend</h4>
+                  <ul class="skills-list-items">
+                    <li>TypeScript & ESNext JS</li>
+                    <li>React & React DOM</li>
+                    <li>HTML5 & Vanilla CSS Systems</li>
+                    <li>Zustand (State Management)</li>
+                    <li>TanStack React Query</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Data & Local Engines</h4>
+                  <ul class="skills-list-items">
+                    <li>SQLite Local Databases</li>
+                    <li>Local-First File Systems (Expo FS)</li>
+                    <li>Markdown File Parsers</li>
+                    <li>AsyncStorage / MMKV</li>
+                    <li>Structured Cloning & Sync</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>UI/UX Design</h4>
+                  <ul class="skills-list-items">
+                    <li>User Journey Mapping</li>
+                    <li>Wireframing & Prototyping</li>
+                    <li>High-Fidelity App UI Mockups</li>
+                    <li>Information Architecture</li>
+                    <li>Usability Testing & Iteration</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Tools & Workflows</h4>
+                  <ul class="skills-list-items">
+                    <li>Figma & Adobe Creative Suite</li>
+                    <li>Canva Layouts & Templates</li>
+                    <li>Git Version Control</li>
+                    <li>EAS Build & Submissions</li>
+                    <li>Obsidian Note Integrations</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="skills-section-divider"></div>
+
+              <h4 class="skills-group-title">Graphic Design & Brand Creative</h4>
+              <div class="skills-layout-grid">
+                <div class="skills-category-card">
+                  <h4>Brand Design</h4>
+                  <ul class="skills-list-items">
+                    <li>Logo Design Systems</li>
+                    <li>Brand Style Guidelines</li>
+                    <li>Corporate Stationery Design</li>
+                    <li>Custom Product Packaging</li>
+                    <li>Sustainable Brand Kits</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Digital Art & Illustration</h4>
+                  <ul class="skills-list-items">
+                    <li>Custom Vector Artwork</li>
+                    <li>Visual Storyboarding</li>
+                    <li>Graphic Asset Styling</li>
+                    <li>Creative Concept Sketching</li>
+                    <li>Digital Art Compositing</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>E-Commerce & Marketing</h4>
+                  <ul class="skills-list-items">
+                    <li>Shopify & Web Storefronts</li>
+                    <li>High-Conversion Ad Designs</li>
+                    <li>Social Media Content Assets</li>
+                    <li>Email Campaign Layouts</li>
+                    <li>E-Commerce Branding Strategy</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Project Management</h4>
+                  <ul class="skills-list-items">
+                    <li>Client Briefing & Scope</li>
+                    <li>Creative Production Pipelines</li>
+                    <li>Resource & File Organization</li>
+                    <li>Print Production Quality Assurance</li>
+                    <li>Collaborative Team Workflows</li>
+                  </ul>
+                </div>
+                <div class="skills-category-card">
+                  <h4>Graphic Design</h4>
+                  <ul class="skills-list-items">
+                    <li>Visual Layout & Design</li>
+                    <li>Vector Art & Illustrations</li>
+                    <li>Typography & Color Systems</li>
+                    <li>E-Commerce Digital Assets</li>
+                    <li>Marketing & Ad Creatives</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Tools I Use & Skills Mapping (Radar Chart) -->
+              <div class="skills-mapping-container">
+                <div class="skills-tools-use-box">
+                  <h4 class="skills-sub-title">Tools I Use</h4>
+                  <div class="tools-list-groups">
+                    <div class="tools-group">
+                      <h5>My Primary Tools</h5>
+                      <ul class="tools-bullets">
+                        <li class="tool-trigger" data-tool="photoshop">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#001833" stroke="#00C8FF" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="900" fill="#00C8FF" text-anchor="middle">Ps</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Adobe Photoshop</strong>
+                            <span class="tool-description">Photo Editing, Layout & Photo Manipulations</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="illustrator">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#331C00" stroke="#FF9A00" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="900" fill="#FF9A00" text-anchor="middle">Ai</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Adobe Illustrator</strong>
+                            <span class="tool-description">Branding, Logo, Vector Arts, Infographics</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="figma">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#151515" stroke="#F24E1E" stroke-width="1.5"/>
+                              <g transform="translate(6, 4) scale(0.8)">
+                                <path d="M4.5 10a4.5 4.5 0 0 1 4.5-4.5h4.5V10h-4.5A4.5 4.5 0 0 1 4.5 10z" fill="#F24E1E"/>
+                                <path d="M13.5 5.5a4.5 4.5 0 0 1 4.5 4.5v4.5H13.5V5.5z" fill="#FF7262"/>
+                                <path d="M4.5 19a4.5 4.5 0 0 1 4.5-4.5h4.5V19h-4.5A4.5 4.5 0 0 1 4.5 19z" fill="#A259FF"/>
+                                <path d="M13.5 14.5a4.5 4.5 0 0 1 4.5 4.5v4.5H13.5v-4.5z" fill="#1ABC9C"/>
+                                <path d="M4.5 28a4.5 4.5 0 0 1 4.5-4.5H13.5v4.5A4.5 4.5 0 0 1 9 28A4.5 4.5 0 0 1 4.5 28z" fill="#0ACF83"/>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Figma</strong>
+                            <span class="tool-description">UI/UX Design, Interactive Prototyping</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="framer">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#111" stroke="#0055FF" stroke-width="1.5"/>
+                              <path d="M10 7 h12 l-6 6 h-6 z M10 13 h12 l-6 6 h-6 z M16 19 h6 l-6 6 z" fill="#FFFFFF"/>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Framer</strong>
+                            <span class="tool-description">Interactive Web Design & Production Publish</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tools-group">
+                      <h5>My Secondary Tools</h5>
+                      <ul class="tools-bullets">
+                        <li class="tool-trigger" data-tool="aftereffects">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#1C0033" stroke="#D124FF" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="900" fill="#D124FF" text-anchor="middle">Ae</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Adobe After Effects</strong>
+                            <span class="tool-description">Video Animations, Logo Animations, Animated Infographics</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="indesign">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#330018" stroke="#FF0066" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="900" fill="#FF0066" text-anchor="middle">Id</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Adobe InDesign</strong>
+                            <span class="tool-description">Book Editing & Organizations</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="blender">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#1F2430" stroke="#F5A623" stroke-width="1.5" />
+                              <path d="M22.5 12.2c0.8 1.1 1.2 2.4 1.2 3.8 0 3.6-2.9 6.5-6.5 6.5S10.7 19.6 10.7 16c0-3 2-5.5 4.8-6.3l1.1 2.2c-1.7 0.5-2.9 2-2.9 3.8 0 2.2 1.8 4 4 4s4-1.8 4-4c0-0.9-0.3-1.7-0.8-2.3l1.6-1.2z" fill="#E87D0D"/>
+                              <circle cx="17.7" cy="16" r="2.2" fill="#E87D0D"/>
+                              <path d="M17.7 16l3.5-3.5M17.7 16l-1.5 4.2M17.7 16l-4.2-1.5" stroke="#E87D0D" stroke-width="1.5"/>
+                              <circle cx="17.7" cy="16" r="0.8" fill="#3A86FF"/>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Blender 3D</strong>
+                            <span class="tool-description">3D Rendering & Modeling</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="canva">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#7D2AE8" stroke="#00C4CC" stroke-width="1.5"/>
+                              <circle cx="16" cy="16" r="9" fill="url(#canva-grad)"/>
+                              <text x="16" y="21" font-family="'Playfair Display', serif" font-size="16" font-style="italic" font-weight="800" fill="#FFFFFF" text-anchor="middle">C</text>
+                              <defs>
+                                <linearGradient id="canva-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                  <stop offset="0%" stop-color="#7D2AE8" />
+                                  <stop offset="100%" stop-color="#00C4CC" />
+                                </linearGradient>
+                              </defs>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Canva</strong>
+                            <span class="tool-description">Fast Prototyping & Marketing Collaterals</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="projectneo">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#1C0A00" stroke="#FF5E00" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Inter', sans-serif" font-size="14" font-weight="900" fill="#FF5E00" text-anchor="middle">Ne</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Project Neo</strong>
+                            <span class="tool-description">Adobe 3D Vector Shading & Design</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tools-group">
+                      <h5>Productivity Tools</h5>
+                      <ul class="tools-bullets">
+                        <li class="tool-trigger" data-tool="notion">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="1.5"/>
+                              <path d="M9 7h3.5l6.5 11V7H22v18h-3.5L12 14v11H9V7z" fill="#FFFFFF"/>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Notion</strong>
+                            <span class="tool-description">Databases, Task Boards & Documentation Workspace</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tools-group">
+                      <h5>Ai Tools</h5>
+                      <ul class="tools-bullets">
+                        <li class="tool-trigger" data-tool="antigravity">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#000000" stroke="#0055FF" stroke-width="1.5"/>
+                              <path d="M16 6 L24 24 L19 24 L16 16 L13 24 L8 24 Z" fill="url(#anti-grad)"/>
+                              <circle cx="16" cy="11" r="2" fill="#00C8FF"/>
+                              <defs>
+                                <linearGradient id="anti-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                  <stop offset="0%" stop-color="#00C8FF" />
+                                  <stop offset="100%" stop-color="#0055FF" />
+                                </linearGradient>
+                              </defs>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Antigravity</strong>
+                            <span class="tool-description">Google DeepMind Autonomous Coding Assistant & IDE</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="claude">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#1E140F" stroke="#D97706" stroke-width="1.5"/>
+                              <text x="16" y="22" font-family="'Prata', serif" font-size="16" font-weight="800" fill="#D97706" text-anchor="middle">C</text>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Claude</strong>
+                            <span class="tool-description">Anthropic LLM Assistant & Artifact Design</span>
+                          </div>
+                        </li>
+                        <li class="tool-trigger" data-tool="gemini">
+                          <div class="tool-logo-container">
+                            <svg viewBox="0 0 32 32" class="tool-logo-svg">
+                              <rect width="32" height="32" rx="6" fill="#0A0F1D" stroke="#38BDF8" stroke-width="1.5"/>
+                              <path d="M16 6c0 5.52 4.48 10 10 10c-5.52 0-10 4.48-10 10c0-5.52-4.48-10-10-10c5.52 0 10-4.48 10-10z" fill="url(#gemini-sparkle-grad)"/>
+                              <defs>
+                                <linearGradient id="gemini-sparkle-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                  <stop offset="0%" stop-color="#93C5FD" />
+                                  <stop offset="50%" stop-color="#3B82F6" />
+                                  <stop offset="100%" stop-color="#EC4899" />
+                                </linearGradient>
+                              </defs>
+                            </svg>
+                          </div>
+                          <div class="tool-details">
+                            <strong>Gemini</strong>
+                            <span class="tool-description">Google Multimodal Reasoning & API Integrations</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-chart-box">
+                  <h4 class="skills-sub-title">Mapping My Skills Development</h4>
+                  <div class="radar-chart-wrapper">
+                    <!-- Glass Background Orb -->
+                    <div class="chart-glass-bg"></div>
+                                        <!-- Inline SVG Radar Chart -->
+                    <svg viewBox="0 0 520 440" class="radar-chart-svg">
+                      <!-- Grid Polygons (10 Levels for extra detail) -->
+                      <!-- Level 10 -->
+                      <polygon points="260,50 402.67,153.65 348.17,321.35 171.83,321.35 117.33,153.65" class="chart-grid-line" />
+                      <!-- Level 9 -->
+                      <polygon points="260,65 388.40,158.29 339.35,309.22 180.65,309.22 131.60,158.29" class="chart-grid-line" />
+                      <!-- Level 8 -->
+                      <polygon points="260,80 374.13,162.92 330.54,297.08 189.46,297.08 145.87,162.92" class="chart-grid-line" />
+                      <!-- Level 7 -->
+                      <polygon points="260,95 359.87,167.56 321.72,284.95 198.28,284.95 160.13,167.56" class="chart-grid-line" />
+                      <!-- Level 6 -->
+                      <polygon points="260,110 345.60,172.19 312.90,272.81 207.10,272.81 174.40,172.19" class="chart-grid-line" />
+                      <!-- Level 5 -->
+                      <polygon points="260,125 331.33,176.83 304.09,260.68 215.91,260.68 188.67,176.83" class="chart-grid-line" />
+                      <!-- Level 4 -->
+                      <polygon points="260,140 317.07,181.46 295.27,248.54 224.73,248.54 202.93,181.46" class="chart-grid-line" />
+                      <!-- Level 3 -->
+                      <polygon points="260,155 302.80,186.10 286.45,236.41 233.55,236.41 217.20,186.10" class="chart-grid-line" />
+                      <!-- Level 2 -->
+                      <polygon points="260,170 288.53,190.73 277.63,224.27 242.37,224.27 231.47,190.73" class="chart-grid-line" />
+                      <!-- Level 1 -->
+                      <polygon points="260,185 274.27,195.37 268.82,212.14 251.18,212.14 245.73,195.37" class="chart-grid-line" />
+
+                      <!-- Axis Lines -->
+                      <line x1="260" y1="200" x2="260" y2="50" class="chart-axis-line" />
+                      <line x1="260" y1="200" x2="402.67" y2="153.65" class="chart-axis-line" />
+                      <line x1="260" y1="200" x2="348.17" y2="321.35" class="chart-axis-line" />
+                      <line x1="260" y1="200" x2="171.83" y2="321.35" class="chart-axis-line" />
+                      <line x1="260" y1="200" x2="117.33" y2="153.65" class="chart-axis-line" />
+
+                      <!-- Axis Labels -->
+                      <text x="260" y="32" class="chart-axis-label label-top">Adobe Illustrator</text>
+                      <text x="415" y="148" class="chart-axis-label label-right">Adobe Photoshop</text>
+                      <text x="360" y="342" class="chart-axis-label label-right">Adobe After Effects</text>
+                      <text x="160" y="342" class="chart-axis-label label-left">Adobe InDesign</text>
+                      <text x="105" y="148" class="chart-axis-label label-left">Blender 3D</text>
+
+                      <!-- AIM Area (Blue) -->
+                      <polygon points="260,50 402.67,153.65 330.54,297.08 198.28,284.95 174.4,172.19" class="chart-area-aim" />
+                      <!-- CURRENT Area (Red) -->
+                      <polygon points="260,50 374.13,162.92 312.9,272.81 207.1,272.81 202.93,181.46" class="chart-area-current" />
+
+                      <!-- Points/Markers -->
+                      <!-- AIM Points -->
+                      <circle cx="260" cy="50" r="4" class="chart-point-aim">
+                        <title>Adobe Illustrator - Level of Expertise: Expert (Level 10/10)</title>
+                      </circle>
+                      <circle cx="402.67" cy="153.65" r="4" class="chart-point-aim">
+                        <title>Adobe Photoshop - Level of Expertise: Expert (Level 10/10)</title>
+                      </circle>
+                      <circle cx="330.54" cy="297.08" r="4" class="chart-point-aim">
+                        <title>Adobe After Effects - Level of Expertise: Practitioner (Level 8/10)</title>
+                      </circle>
+                      <circle cx="198.28" cy="284.95" r="4" class="chart-point-aim">
+                        <title>Adobe InDesign - Level of Expertise: Working (Level 7/10)</title>
+                      </circle>
+                      <circle cx="174.4" cy="172.19" r="4" class="chart-point-aim">
+                        <title>Blender 3D - Level of Expertise: Working (Level 6/10)</title>
+                      </circle>
+
+                      <!-- CURRENT Points -->
+                      <circle cx="260" cy="50" r="3.5" class="chart-point-current">
+                        <title>Adobe Illustrator - Proficiency: Expert (Level 10/10)</title>
+                      </circle>
+                      <circle cx="374.13" cy="162.92" r="3.5" class="chart-point-current">
+                        <title>Adobe Photoshop - Proficiency: Practitioner (Level 8/10)</title>
+                      </circle>
+                      <circle cx="312.9" cy="272.81" r="3.5" class="chart-point-current">
+                        <title>Adobe After Effects - Proficiency: Working (Level 6/10)</title>
+                      </circle>
+                      <circle cx="207.1" cy="272.81" r="3.5" class="chart-point-current">
+                        <title>Adobe InDesign - Proficiency: Working (Level 6/10)</title>
+                      </circle>
+                                            <circle cx="202.93" cy="181.46" r="3.5" class="chart-point-current">
+                        <title>Blender 3D - Proficiency: Aware (Level 4/10)</title>
+                      </circle>
+                    </svg>
+                  </div>
+
+                  <!-- Chart Legend -->
+                  <div class="chart-legend">
+                    <div class="legend-item">
+                      <span class="legend-color current"></span>
+                      <span class="legend-text">Proficiency</span>
+                    </div>
+                    <div class="legend-item">
+                      <span class="legend-color aim"></span>
+                      <span class="legend-text">Level of Expertise</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- About Me Section Footer -->
+            <footer class="about-footer">
+              <!-- Top Section: Multi-column Links -->
+              <div class="footer-top-grid">
+                <!-- Column 1: Logo & Slogan -->
+                <div class="footer-brand-col">
+                  <h3 class="footer-logo">JOHN PAUL</h3>
+                  <p class="footer-slogan">Mobile & Product Engineering Portfolio</p>
+                </div>
+                
+                <!-- Column 2: Overview (Navigation Links) -->
+                <div class="footer-links-col">
+                  <h4 class="footer-col-title">Overview</h4>
+                  <ul class="footer-links-list">
+                    <li><a href="#" onclick="navigateSubtab('about'); return false;">About Me</a></li>
+                    <li><a href="#" onclick="navigateSubtab('services'); return false;">Services I Offer</a></li>
+                    <li><a href="#" onclick="navigateSubtab('pricing'); return false;">Packages & Pricing</a></li>
+                  </ul>
+                </div>
+                
+                <!-- Column 3: Works (Navigation Links) -->
+                <div class="footer-links-col">
+                  <h4 class="footer-col-title">Works</h4>
+                  <ul class="footer-links-list">
+                    <li><a href="#" onclick="navigateProjectFilter('all'); return false;">All Projects</a></li>
+                    <li><a href="#" onclick="navigateProjectFilter('mobile-apps'); return false;">Mobile Apps</a></li>
+                    <li><a href="#" onclick="navigateProjectFilter('graphic-design'); return false;">Graphic Design</a></li>
+                    <li><a href="#" onclick="navigateProjectFilter('casestudy'); return false;">UX Case Studies</a></li>
+                  </ul>
+                </div>
+                
+                <!-- Column 4: Contact Info -->
+                <div class="footer-links-col">
+                  <h4 class="footer-col-title">Contact</h4>
+                  <ul class="footer-links-list">
+                    <li><a href="mailto:your.email@gmail.com">your.email@gmail.com</a></li>
+                    <li><a href="tel:+639000000000">+63 900 000 0000</a></li>
+                    <li><span class="footer-non-link-text">Batangas City, Philippines</span></li>
+                  </ul>
+                </div>
+                
+                <!-- Column 5: Connect -->
+                <div class="footer-links-col">
+                  <h4 class="footer-col-title">Quick Action</h4>
+                  <ul class="footer-links-list">
+                    <li><a href="#" onclick="switchTab('contact'); return false;">Send a Message</a></li>
+                    <li><a href="https://github.com/johnpaulodymoscofreelance-jpg" target="_blank">GitHub Profile</a></li>
+                    <li><a href="https://www.behance.net/johnpaulodymosco" target="_blank">Behance Portfolio</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Horizontal Divider Line -->
+              <div class="footer-divider-line"></div>
+
+              <!-- Bottom Section: Centered Social Icons & Copyright -->
+              <div class="footer-bottom-centered">
+                <div class="footer-social-circles">
+                  <!-- Facebook -->
+                  <a href="https://facebook.com/yourusername" target="_blank" title="Facebook" class="social-circle-btn facebook">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                  </a>
+                  <!-- Messenger -->
+                  <a href="https://m.me/yourusername" target="_blank" title="Messenger" class="social-circle-btn messenger">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.9 1.15 5.5 3.03 7.37.15.15.22.37.18.58l-.45 2.7c-.08.45.38.82.8.62l3.05-1.45c.16-.08.35-.07.5.02c.9.48 1.93.75 3.02.75c5.64 0 10-4.13 10-9.7C22 6.13 17.64 2 12 2zm1.25 12.5l-2.5-2.67-4.88 2.67 5.37-5.7 2.5 2.67 4.88-2.67-5.37 5.7z"/>
+                    </svg>
+                  </a>
+                  <!-- WhatsApp -->
+                  <a href="https://wa.me/639000000000" target="_blank" title="WhatsApp" class="social-circle-btn whatsapp">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.773-4.364 9.776-9.776.002-2.622-1.017-5.086-2.87-6.942C16.276 2.03 13.818 1.01 11.998 1.01c-5.41 0-9.78 4.367-9.782 9.782-.001 1.547.414 3.057 1.203 4.417l-.988 3.612 3.708-.973zm11.517-5.64c-.324-.162-1.92-.949-2.217-1.058-.297-.108-.513-.162-.73.162-.217.324-.838 1.058-1.027 1.275-.19.217-.379.244-.703.081-.324-.162-1.368-.505-2.607-1.611-.964-.86-1.613-1.922-1.802-2.247-.189-.324-.02-.5-.182-.662-.146-.145-.324-.379-.487-.568-.162-.189-.216-.324-.324-.54-.108-.217-.054-.406-.027-.569.027-.162.217-.514.324-.676.108-.162.146-.27.217-.406.072-.135.036-.254-.009-.416-.045-.162-.487-1.173-.667-1.605-.176-.423-.377-.366-.514-.373-.13-.006-.28-.007-.43-.007-.15 0-.395.056-.601.282-.206.225-.785.767-.785 1.871s.804 2.167.917 2.318c.112.15 1.58 2.414 3.829 3.387.535.232.953.37 1.28.474.537.171 1.026.147 1.411.09.43-.064 1.32-.54 1.506-1.06.187-.52.187-.966.131-1.06-.056-.094-.206-.162-.53-.324z"/>
+                    </svg>
+                  </a>
+                  <!-- Discord -->
+                  <a href="https://discord.com/users/yourusername" target="_blank" title="Discord" class="social-circle-btn discord">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.094 13.094 0 0 1-1.873-.894.077.077 0 0 1-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 0 1 .077-.011c3.92 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.195.373.289a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.156 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.156 2.418z"/>
+                    </svg>
+                  </a>
+                  <!-- Behance -->
+                  <a href="https://www.behance.net/johnpaulodymosco" target="_blank" title="Behance" class="social-circle-btn behance">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M22 13.52c0-1.18-.32-2.09-.94-2.74-.63-.65-1.52-.98-2.68-.98-1.12 0-2.01.35-2.67 1.05-.66.7-1 1.69-1 2.97 0 1.24.32 2.22.95 2.91.64.7 1.51 1.04 2.61 1.04 1.15 0 2.05-.33 2.7-1 .65-.68.98-1.55.98-2.62v-.63zm-4.59-1.22c.31-.38.74-.58 1.31-.58.55 0 .97.17 1.25.53.28.35.43.91.43 1.68h-3.41c.02-.75.16-1.26.42-1.63zM10.15 8.16c.86 0 1.54.2 2 .59.48.38.72.93.72 1.63 0 .52-.15.96-.46 1.32-.3.35-.74.6-1.3.74.72.15 1.27.46 1.63.92.36.46.54 1.04.54 1.74 0 .9-.33 1.61-1 2.12-.66.5-1.59.75-2.78.75H2V8.16h8.15zm-3 3.63h2.64c.48 0 .86-.1 1.12-.29.27-.19.4-.49.4-.89 0-.37-.13-.65-.39-.83-.26-.19-.66-.28-1.2-.28H7.15v2.29zm0 4.54h3c.53 0 .95-.12 1.24-.35.3-.23.45-.58.45-1.04 0-.41-.15-.72-.44-.93-.29-.21-.72-.32-1.28-.32h-2.97v2.64zM16.24 8.64h5v1.27h-5z"/>
+                    </svg>
+                  </a>
+                  <!-- GitHub -->
+                  <a href="https://github.com/johnpaulodymoscofreelance-jpg" target="_blank" title="GitHub" class="social-circle-btn github">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                      <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                  </a>
+                </div>
+                <p class="footer-copyright-bottom">&copy; 2026 John Paulo Dymosco. Designed & Engineered with Precision.</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- Subtab 4: Services I Offer -->
+          <div id="home-services" class="subtab-content">
+            <div class="subtab-header">
+              <h3 class="subtab-title">Services <span class="accent-serif">I Offer</span></h3>
+            </div>
+            <div class="services-intro">
+              <p class="lead-text">I help clients design, build, and optimize high-performance solutions. Here are the
+                core services I provide:</p>
+            </div>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-num">1</div>
+                <h4>Mobile App Engineering</h4>
+                <ul class="service-list">
+                  <li>Cross-platform React Native & Expo mobile apps</li>
+                  <li>Offline-first architectures & SQLite local databases</li>
+                  <li>Memory footprint profiling & frame-rate optimization</li>
+                  <li>Native modules, libraries, and Expo config plugins</li>
+                  <li>EAS Build & App/Play Store deployment pipelines</li>
+                </ul>
+              </div>
+              <div class="service-card">
+                <div class="service-num">2</div>
+                <h4>Graphic Design & Brand Systems</h4>
+                <ul class="service-list">
+                  <li>Logo design & custom vector brand identity sets</li>
+                  <li>Detailed corporate style guide documentation</li>
+                  <li>Social media templates & high-conversion ad sets</li>
+                  <li>Vector art assets, sketch storyboards & illustration files</li>
+                  <li>Print packaging structures & color space configurations</li>
+                </ul>
+              </div>
+              <div class="service-card">
+                <div class="service-num">3</div>
+                <h4>Web Design & CMS Platforms</h4>
+                <ul class="service-list">
+                  <li>Desktop & mobile Figma mockups with Auto-Layout</li>
+                  <li>Semantic HTML5, CSS Grid/Flexbox & Tailwind setups</li>
+                  <li>Custom Webflow & WordPress CMS configurations</li>
+                  <li>Hover animations, scroll-linked triggers & micro-effects</li>
+                  <li>DNS routing, Cloudflare CDN/SSL setups, & CDN hosting</li>
+                </ul>
+              </div>
+              <div class="service-card">
+                <div class="service-num">4</div>
+                <h4>Performance & SEO Optimization</h4>
+                <ul class="service-list">
+                  <li>Core Web Vitals speed tuning (Lighthouse audits)</li>
+                  <li>Automated asset optimization & compression methods</li>
+                  <li>Structural search engine meta-tagging & SEO structure</li>
+                  <li>Analytics integration (Google Tag Manager & search indexes)</li>
+                  <li>User journey mapping, wireframes & usability iterations</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="about-section-divider"></div>
+
+            <div class="workflow-section">
+              <div class="subtab-header">
+                <h3 class="subtab-title">How <span class="accent-serif">I Work</span></h3>
+              </div>
+              <p class="workflow-intro">A transparent, structured look at how I take projects from concept to final
+                production delivery across each specialization.</p>
+
+              <!-- Tab Navigation for Workflow Specializations -->
+              <div class="workflow-tabs">
+                <button class="workflow-tab-btn active" data-workflow="app-dev">
+                  <span class="workflow-tab-icon">📱</span> App Development & Engineering
+                </button>
+                <button class="workflow-tab-btn" data-workflow="graphic-design">
+                  <span class="workflow-tab-icon">🎨</span> Graphic Design & Brand Creative
+                </button>
+                <button class="workflow-tab-btn" data-workflow="web-design">
+                  <span class="workflow-tab-icon">💻</span> Web Designing
+                </button>
+              </div>
+
+              <!-- Workflow Tab Content Containers -->
+              <div class="workflow-content-container">
+                <!-- App Development Workflow -->
+                <div class="workflow-pane active" id="wf-app-dev">
+                  <div class="workflow-timeline">
+                    <!-- Step 1 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span>01</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Scoping & Architecture</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Figma</span>
+                            <span class="wf-tool-tag">Obsidian</span>
+                            <span class="wf-tool-tag">Draw.io</span>
+                          </div>
+                        </div>
+                        <p>Defining app requirements, detailing the local-first database schema (SQLite), scoping
+                          performance benchmarks, and selecting optimal state management strategies.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_app_step1.png"
+                            alt="App architecture planning with mobile architecture diagram on tablet and handwritten schema notes"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">Architecture spec & SQLite schema planning session</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Requirements & Features</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">SQLite Schema & Spec Sheet</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 30%"></div>
+                              </div>
+                              <span class="metric-value">30%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 90%"></div>
+                              </div>
+                              <span class="metric-value">90%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <path d="M12 20h9"></path>
+                          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                        <span>02</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Interactive Wireframing</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Figma</span>
+                            <span class="wf-tool-tag">Illustrator</span>
+                            <span class="wf-tool-tag">Miro</span>
+                          </div>
+                        </div>
+                        <p>Constructing high-fidelity UI user flows, component relationships, interactive states, and
+                          glassmorphic micro-details inside Figma.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_app_step2.png"
+                            alt="Figma UI wireframing with interactive mobile prototype on screen" class="wf-step-img"
+                            loading="lazy">
+                          <div class="wf-step-img-caption">High-fidelity Figma UI prototyping in action</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Architecture Spec</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">High-Fi Interactive Prototypes</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 40%"></div>
+                              </div>
+                              <span class="metric-value">40%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polyline points="16 18 22 12 16 6"></polyline>
+                          <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <span>03</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Component Engineering</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">React Native</span>
+                            <span class="wf-tool-tag">TypeScript</span>
+                            <span class="wf-tool-tag">Expo SDK</span>
+                          </div>
+                        </div>
+                        <p>Developing custom, reusable cross-platform UI components using React Native, TypeScript, and
+                          native Expo configurators for absolute responsive flexibility.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_app_step3.png"
+                            alt="React Native component code in VS Code with live device preview" class="wf-step-img"
+                            loading="lazy">
+                          <div class="wf-step-img-caption">Engineering reusable RN components with TypeScript</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">UI Mockups & Figma Tokens</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Modular Component Libraries</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 50%"></div>
+                              </div>
+                              <span class="metric-value">50%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 85%"></div>
+                              </div>
+                              <span class="metric-value">85%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                          <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                          <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                        </svg>
+                        <span>04</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Local Database & Sync</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">SQLite</span>
+                            <span class="wf-tool-tag">MMKV Storage</span>
+                            <span class="wf-tool-tag">Expo FS</span>
+                          </div>
+                        </div>
+                        <p>Integrating MMKV, Expo File System, and SQLite engines to power seamless offline-first
+                          usability, followed by writing synchronization logic.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_app_step4.png"
+                            alt="SQLite and local database setup with data flow diagram on screen" class="wf-step-img"
+                            loading="lazy">
+                          <div class="wf-step-img-caption">Offline-first SQLite & MMKV sync integration</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Component UI & Local Schemas</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Offline Storage & Sync Engine</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 20%"></div>
+                              </div>
+                              <span class="metric-value">20%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                        <span>05</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Optimization & EAS Build</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">EAS CLI</span>
+                            <span class="wf-tool-tag">RN Profiler</span>
+                            <span class="wf-tool-tag">Flipper</span>
+                          </div>
+                        </div>
+                        <p>Profiling render cycles, optimizing bundles, executing platform-specific performance audits,
+                          and launching builds to production via Expo Application Services (EAS).</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_app_step5.png"
+                            alt="EAS build dashboard showing successful App Store and Play Store deployment"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">EAS build pipeline & store deployment launch</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Functional App Codebase</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Apple App Store & Play Store Binaries</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 15%"></div>
+                              </div>
+                              <span class="metric-value">15%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Graphic Design Workflow -->
+                <div class="workflow-pane" id="wf-graphic-design">
+                  <div class="workflow-timeline">
+                    <!-- Step 1 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span>01</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Discovery & Moodboarding</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Pinterest</span>
+                            <span class="wf-tool-tag">Adobe Color</span>
+                            <span class="wf-tool-tag">Figma</span>
+                          </div>
+                        </div>
+                        <p>Analyzing competitor aesthetics, defining core identity guidelines, and establishing visual
+                          direction moodboards with typography and color palettes.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 800 440" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <!-- Warm wooden desk background -->
+                              <defs>
+                                <linearGradient id="desk1" x1="0" y1="0" x2="0" y2="1">
+                                  <stop offset="0%" stop-color="#8B6347" />
+                                  <stop offset="100%" stop-color="#5C3D1E" />
+                                </linearGradient>
+                                <linearGradient id="pageL" x1="0" y1="0" x2="1" y2="0">
+                                  <stop offset="0%" stop-color="#e8e0d5" />
+                                  <stop offset="100%" stop-color="#f5f0e8" />
+                                </linearGradient>
+                                <linearGradient id="pageR" x1="0" y1="0" x2="1" y2="0">
+                                  <stop offset="0%" stop-color="#f5f0e8" />
+                                  <stop offset="100%" stop-color="#ece4d8" />
+                                </linearGradient>
+                                <filter id="shadow1">
+                                  <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000"
+                                    flood-opacity="0.4" />
+                                </filter>
+                              </defs>
+                              <rect width="800" height="440" fill="url(#desk1)" />
+                              <!-- Wood grain lines -->
+                              <line x1="0" y1="80" x2="800" y2="90" stroke="#7a5535" stroke-width="1" opacity="0.4" />
+                              <line x1="0" y1="180" x2="800" y2="175" stroke="#7a5535" stroke-width="1" opacity="0.3" />
+                              <line x1="0" y1="300" x2="800" y2="295" stroke="#7a5535" stroke-width="0.8"
+                                opacity="0.3" />
+                              <line x1="0" y1="380" x2="800" y2="385" stroke="#7a5535" stroke-width="0.8"
+                                opacity="0.2" />
+                              <!-- Open book body -->
+                              <g filter="url(#shadow1)">
+                                <!-- Left page -->
+                                <path d="M60 50 Q400 40 400 40 L400 400 Q400 400 60 410 Z" fill="url(#pageL)" />
+                                <!-- Right page -->
+                                <path d="M400 40 Q740 50 740 410 L400 400 Z" fill="url(#pageR)" />
+                                <!-- Book spine shadow -->
+                                <rect x="396" y="40" width="8" height="360" fill="#c9bfb0" opacity="0.8" />
+                              </g>
+                              <!-- LEFT PAGE: Moodboard content -->
+                              <text x="100" y="90" fill="#2d2016" font-size="13" font-family="Georgia, serif"
+                                font-weight="700" letter-spacing="1">MOODBOARD &amp; BRAND DIRECTION</text>
+                              <rect x="80" y="98" width="280" height="1.5" fill="#8B6347" opacity="0.5" />
+                              <!-- Mood image tiles -->
+                              <rect x="82" y="112" width="82" height="60" rx="4" fill="#2D4739" opacity="0.85" />
+                              <rect x="172" y="112" width="82" height="60" rx="4" fill="#8B4513" opacity="0.75" />
+                              <rect x="262" y="112" width="82" height="60" rx="4" fill="#C4956A" opacity="0.8" />
+                              <rect x="82" y="180" width="82" height="55" rx="4" fill="#1a3a5c" opacity="0.8" />
+                              <rect x="172" y="180" width="82" height="55" rx="4" fill="#8B7355" opacity="0.7" />
+                              <rect x="262" y="180" width="82" height="55" rx="4" fill="#2d2016" opacity="0.75" />
+                              <!-- Small white photo overlay lines to simulate photos -->
+                              <rect x="82" y="112" width="82" height="60" rx="4" fill="none" stroke="#ffffff"
+                                stroke-width="0.5" opacity="0.3" />
+                              <rect x="172" y="112" width="82" height="60" rx="4" fill="none" stroke="#ffffff"
+                                stroke-width="0.5" opacity="0.3" />
+                              <rect x="262" y="112" width="82" height="60" rx="4" fill="none" stroke="#ffffff"
+                                stroke-width="0.5" opacity="0.3" />
+                              <!-- Mood labels -->
+                              <text x="123" y="265" text-anchor="middle" fill="#5c3d1e" font-size="8"
+                                font-family="sans-serif">Natural</text>
+                              <text x="213" y="265" text-anchor="middle" fill="#5c3d1e" font-size="8"
+                                font-family="sans-serif">Earthy</text>
+                              <text x="303" y="265" text-anchor="middle" fill="#5c3d1e" font-size="8"
+                                font-family="sans-serif">Warm</text>
+                              <!-- Color palette section -->
+                              <text x="82" y="290" fill="#2d2016" font-size="9" font-family="sans-serif"
+                                font-weight="700" letter-spacing="1">COLOR PALETTE</text>
+                              <circle cx="100" cy="320" r="18" fill="#2D4739" />
+                              <circle cx="140" cy="320" r="18" fill="#8B4513" />
+                              <circle cx="180" cy="320" r="18" fill="#D4A853" />
+                              <circle cx="220" cy="320" r="18" fill="#C4956A" />
+                              <circle cx="260" cy="320" r="18" fill="#4A7BA6" />
+                              <circle cx="300" cy="320" r="18" fill="#F5F0E8" />
+                              <text x="100" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Forest</text>
+                              <text x="140" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Oak</text>
+                              <text x="180" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Gold</text>
+                              <text x="220" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Sand</text>
+                              <text x="260" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Slate</text>
+                              <text x="300" y="348" text-anchor="middle" fill="#5c3d1e" font-size="7"
+                                font-family="sans-serif">Cream</text>
+                              <!-- Pinterest ref note -->
+                              <text x="82" y="385" fill="#8B6347" font-size="8" font-family="sans-serif"
+                                font-style="italic">Sources: Pinterest · Behance · Adobe Color</text>
+                              <!-- RIGHT PAGE: Typography section -->
+                              <text x="440" y="90" fill="#2d2016" font-size="13" font-family="Georgia, serif"
+                                font-weight="700" letter-spacing="1">TYPOGRAPHY &amp; TONE</text>
+                              <rect x="425" y="98" width="285" height="1.5" fill="#8B6347" opacity="0.5" />
+                              <text x="425" y="128" fill="#2d2016" font-size="28" font-family="Georgia, serif"
+                                font-weight="900">Aa Bb Cc</text>
+                              <text x="425" y="152" fill="#2d2016" font-size="11" font-family="sans-serif"
+                                font-weight="700" letter-spacing="3">MONT SERRAT BOLD</text>
+                              <text x="425" y="168" fill="#8B6347" font-size="9" font-family="sans-serif">Primary brand
+                                typeface · Headings &amp; Display</text>
+                              <rect x="425" y="178" width="280" height="0.8" fill="#c9bfb0" opacity="0.6" />
+                              <text x="425" y="200" fill="#2d2016" font-size="20" font-family="sans-serif">Aa Bb Cc
+                                123</text>
+                              <text x="425" y="218" fill="#2d2016" font-size="10" font-family="sans-serif"
+                                font-weight="600" letter-spacing="2">OPEN SANS REGULAR</text>
+                              <text x="425" y="232" fill="#8B6347" font-size="8" font-family="sans-serif">Body copy ·
+                                Captions · UI text</text>
+                              <rect x="425" y="250" width="280" height="0.8" fill="#c9bfb0" opacity="0.6" />
+                              <!-- Keywords/tone section -->
+                              <text x="425" y="278" fill="#2d2016" font-size="9" font-family="sans-serif"
+                                font-weight="700" letter-spacing="1">BRAND TONE KEYWORDS</text>
+                              <rect x="425" y="290" width="70" height="18" rx="9" fill="#2D4739" opacity="0.15" />
+                              <text x="460" y="303" text-anchor="middle" fill="#2D4739" font-size="8"
+                                font-family="sans-serif" font-weight="600">Authentic</text>
+                              <rect x="502" y="290" width="60" height="18" rx="9" fill="#8B4513" opacity="0.15" />
+                              <text x="532" y="303" text-anchor="middle" fill="#8B4513" font-size="8"
+                                font-family="sans-serif" font-weight="600">Organic</text>
+                              <rect x="569" y="290" width="60" height="18" rx="9" fill="#4A7BA6" opacity="0.15" />
+                              <text x="599" y="303" text-anchor="middle" fill="#4A7BA6" font-size="8"
+                                font-family="sans-serif" font-weight="600">Modern</text>
+                              <rect x="425" y="315" width="68" height="18" rx="9" fill="#D4A853" opacity="0.2" />
+                              <text x="459" y="328" text-anchor="middle" fill="#8B6347" font-size="8"
+                                font-family="sans-serif" font-weight="600">Warm</text>
+                              <rect x="500" y="315" width="70" height="18" rx="9" fill="#2D4739" opacity="0.12" />
+                              <text x="535" y="328" text-anchor="middle" fill="#2D4739" font-size="8"
+                                font-family="sans-serif" font-weight="600">Minimal</text>
+                              <text x="425" y="370" fill="#8B6347" font-size="8" font-family="sans-serif"
+                                font-style="italic">Brand Identity Guidelines · v1.0 · Confidential</text>
+                              <!-- Page numbers -->
+                              <text x="340" y="395" fill="#8B6347" font-size="8" font-family="sans-serif">12</text>
+                              <text x="660" y="395" fill="#8B6347" font-size="8" font-family="sans-serif">13</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">Discovery moodboard with competitive aesthetic analysis</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Client Design Brief</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Visual Moodboards & Palette Plans</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 90%"></div>
+                              </div>
+                              <span class="metric-value">90%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 30%"></div>
+                              </div>
+                              <span class="metric-value">30%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <path d="M12 20h9"></path>
+                          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                        <span>02</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Identity Concept Sketching</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Photoshop</span>
+                            <span class="wf-tool-tag">Illustrator</span>
+                            <span class="wf-tool-tag">Sketchbook</span>
+                          </div>
+                        </div>
+                        <p>Drafting original vector concepts, exploring diverse logo systems, testing type lockups, and
+                          selecting optimal layouts for the target audience.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 800 440" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <defs>
+                                <linearGradient id="desk2" x1="0" y1="0" x2="0" y2="1">
+                                  <stop offset="0%" stop-color="#8B6347" />
+                                  <stop offset="100%" stop-color="#5C3D1E" />
+                                </linearGradient>
+                                <linearGradient id="page2L" x1="0" y1="0" x2="1" y2="0">
+                                  <stop offset="0%" stop-color="#e8e0d5" />
+                                  <stop offset="100%" stop-color="#f5f0e8" />
+                                </linearGradient>
+                                <linearGradient id="page2R" x1="0" y1="0" x2="1" y2="0">
+                                  <stop offset="0%" stop-color="#f5f0e8" />
+                                  <stop offset="100%" stop-color="#ece4d8" />
+                                </linearGradient>
+                                <filter id="shadow2">
+                                  <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000"
+                                    flood-opacity="0.4" />
+                                </filter>
+                              </defs>
+                              <!-- Desk background -->
+                              <rect width="800" height="440" fill="url(#desk2)" />
+                              <line x1="0" y1="100" x2="800" y2="95" stroke="#7a5535" stroke-width="1" opacity="0.35" />
+                              <line x1="0" y1="220" x2="800" y2="215" stroke="#7a5535" stroke-width="1"
+                                opacity="0.25" />
+                              <line x1="0" y1="340" x2="800" y2="345" stroke="#7a5535" stroke-width="0.8"
+                                opacity="0.2" />
+                              <!-- Open book -->
+                              <g filter="url(#shadow2)">
+                                <path d="M55 48 Q400 38 400 38 L400 402 Q400 402 55 412 Z" fill="url(#page2L)" />
+                                <path d="M400 38 Q745 48 745 412 L400 402 Z" fill="url(#page2R)" />
+                                <rect x="396" y="38" width="8" height="364" fill="#c9bfb0" opacity="0.8" />
+                              </g>
+                              <!-- LEFT PAGE: Logo construction grid -->
+                              <text x="90" y="85" fill="#2d2016" font-size="13" font-family="Georgia, serif"
+                                font-weight="700" letter-spacing="1">LOGO CONSTRUCTION &amp; GRID</text>
+                              <rect x="75" y="93" width="295" height="1.5" fill="#8B6347" opacity="0.5" />
+                              <!-- Grid overlay -->
+                              <rect x="150" y="110" width="160" height="160" rx="2" fill="none" stroke="#4A7BA6"
+                                stroke-width="0.5" opacity="0.4" />
+                              <!-- Grid lines -->
+                              <line x1="150" y1="136" x2="310" y2="136" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="150" y1="163" x2="310" y2="163" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="150" y1="190" x2="310" y2="190" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="150" y1="216" x2="310" y2="216" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="150" y1="243" x2="310" y2="243" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="176" y1="110" x2="176" y2="270" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="203" y1="110" x2="203" y2="270" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="230" y1="110" x2="230" y2="270" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="257" y1="110" x2="257" y2="270" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <line x1="284" y1="110" x2="284" y2="270" stroke="#4A7BA6" stroke-width="0.4"
+                                opacity="0.4" />
+                              <!-- Logo mark centered on grid -->
+                              <circle cx="230" cy="190" r="38" fill="none" stroke="#2D4739" stroke-width="2" />
+                              <text x="230" y="183" text-anchor="middle" fill="#2D4739" font-size="26"
+                                font-family="Georgia, serif" font-weight="900">A</text>
+                              <rect x="195" y="198" width="70" height="3" rx="1" fill="#2D4739" />
+                              <text x="230" y="218" text-anchor="middle" fill="#2D4739" font-size="9"
+                                font-family="sans-serif" letter-spacing="3">BRAND</text>
+                              <!-- Measurement lines -->
+                              <line x1="140" y1="152" x2="148" y2="152" stroke="#8B6347" stroke-width="0.8" />
+                              <line x1="140" y1="228" x2="148" y2="228" stroke="#8B6347" stroke-width="0.8" />
+                              <line x1="144" y1="152" x2="144" y2="228" stroke="#8B6347" stroke-width="0.6" />
+                              <text x="138" y="194" text-anchor="middle" fill="#8B6347" font-size="7"
+                                font-family="sans-serif">X</text>
+                              <!-- Sidebar notes -->
+                              <text x="78" y="120" fill="#5c3d1e" font-size="8" font-family="sans-serif"
+                                font-weight="700">Geometry</text>
+                              <text x="78" y="131" fill="#8B6347" font-size="6.5" font-family="sans-serif">Circle with
+                                precise</text>
+                              <text x="78" y="141" fill="#8B6347" font-size="6.5" font-family="sans-serif">geometric
+                                spacing</text>
+                              <text x="78" y="165" fill="#5c3d1e" font-size="8" font-family="sans-serif"
+                                font-weight="700">Spacing</text>
+                              <text x="78" y="176" fill="#8B6347" font-size="6.5" font-family="sans-serif">Clear zone =
+                                1x</text>
+                              <text x="78" y="186" fill="#8B6347" font-size="6.5" font-family="sans-serif">minimum
+                                padding</text>
+                              <text x="78" y="210" fill="#5c3d1e" font-size="8" font-family="sans-serif"
+                                font-weight="700">Proportions</text>
+                              <text x="78" y="221" fill="#8B6347" font-size="6.5" font-family="sans-serif">Fixed 1:1
+                                ratio</text>
+                              <text x="78" y="231" fill="#8B6347" font-size="6.5" font-family="sans-serif">for all use
+                                cases</text>
+                              <!-- Brand name below grid -->
+                              <text x="180" y="298" fill="#2d2016" font-size="20" font-family="Georgia, serif"
+                                font-weight="900" letter-spacing="2">AURORA</text>
+                              <text x="195" y="316" fill="#2D4739" font-size="11" font-family="sans-serif"
+                                letter-spacing="6">ORGANICS</text>
+                              <text x="230" y="345" text-anchor="middle" fill="#8B6347" font-size="7.5"
+                                font-family="sans-serif" font-style="italic">Primary lockup · Full color version</text>
+                              <text x="230" y="375" text-anchor="middle" fill="#8B6347" font-size="7"
+                                font-family="sans-serif">12</text>
+                              <!-- RIGHT PAGE: Identity concept sketches -->
+                              <text x="432" y="85" fill="#2d2016" font-size="13" font-family="Georgia, serif"
+                                font-weight="700" letter-spacing="1">IDENTITY CONCEPT SKETCHES</text>
+                              <rect x="418" y="93" width="300" height="1.5" fill="#8B6347" opacity="0.5" />
+                              <!-- Sketch concept A -->
+                              <rect x="420" y="105" width="130" height="100" rx="4" fill="#f0ebe0" stroke="#c9bfb0"
+                                stroke-width="0.8" />
+                              <text x="485" y="122" text-anchor="middle" fill="#8B6347" font-size="7"
+                                font-family="sans-serif" font-weight="700">CONCEPT A</text>
+                              <circle cx="485" cy="158" r="25" fill="none" stroke="#2d2016" stroke-width="1.5"
+                                stroke-dasharray="3,2" />
+                              <text x="485" y="163" text-anchor="middle" fill="#2d2016" font-size="14"
+                                font-family="Georgia, serif" font-weight="900">A</text>
+                              <text x="485" y="195" text-anchor="middle" fill="#2d2016" font-size="8"
+                                font-family="sans-serif" letter-spacing="2">MARK</text>
+                              <!-- Sketch concept B -->
+                              <rect x="560" y="105" width="130" height="100" rx="4" fill="#f0ebe0" stroke="#c9bfb0"
+                                stroke-width="0.8" />
+                              <text x="625" y="122" text-anchor="middle" fill="#8B6347" font-size="7"
+                                font-family="sans-serif" font-weight="700">CONCEPT B</text>
+                              <rect x="600" y="140" width="50" height="35" rx="3" fill="none" stroke="#2d2016"
+                                stroke-width="1.5" stroke-dasharray="3,2" />
+                              <text x="625" y="162" text-anchor="middle" fill="#2d2016" font-size="11"
+                                font-family="sans-serif" font-weight="900">B.</text>
+                              <text x="625" y="195" text-anchor="middle" fill="#2d2016" font-size="8"
+                                font-family="sans-serif" letter-spacing="2">MARK</text>
+                              <!-- Notes -->
+                              <text x="420" y="225" fill="#5c3d1e" font-size="8" font-family="sans-serif"
+                                font-weight="700">Designer Notes:</text>
+                              <text x="420" y="238" fill="#8B6347" font-size="7.5" font-family="sans-serif">→ Concept A
+                                feels more premium and timeless</text>
+                              <text x="420" y="250" fill="#8B6347" font-size="7.5" font-family="sans-serif">→ Concept B
+                                suits digital-first applications</text>
+                              <text x="420" y="262" fill="#8B6347" font-size="7.5" font-family="sans-serif">→ Proceeding
+                                with refined version of Concept A</text>
+                              <!-- Pencil sketch marks -->
+                              <line x1="420" y1="275" x2="700" y2="275" stroke="#c9bfb0" stroke-width="0.6" />
+                              <!-- Type exploration -->
+                              <text x="420" y="298" fill="#2d2016" font-size="9" font-family="sans-serif"
+                                font-weight="700" letter-spacing="1">TYPE EXPLORATION</text>
+                              <text x="420" y="325" fill="#2d2016" font-size="22" font-family="Georgia, serif"
+                                font-weight="900">Aurora</text>
+                              <text x="420" y="348" fill="#2d2016" font-size="16" font-family="sans-serif"
+                                font-weight="300" letter-spacing="4">AURORA</text>
+                              <text x="420" y="368" fill="#2d2016" font-size="14" font-family="sans-serif"
+                                font-weight="700" letter-spacing="2">Aurora Organics</text>
+                              <text x="625" y="375" fill="#8B6347" font-size="7" font-family="sans-serif">13</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">Logo concept sketching &amp; typography lockup testing</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Approved Visual Direction</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Vector Logo Concepts & Typographies</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 60%"></div>
+                              </div>
+                              <span class="metric-value">60%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polyline points="16 18 22 12 16 6"></polyline>
+                          <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <span>03</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>System Styling & Guidelines</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Illustrator</span>
+                            <span class="wf-tool-tag">InDesign</span>
+                            <span class="wf-tool-tag">Figma</span>
+                          </div>
+                        </div>
+                        <p>Refining selected logo marks, codifying the typographic system, formatting design assets, and
+                          packaging a complete style-guide sheet.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_gd_step3.png"
+                            alt="Printed brand style guide book open showing logo construction grid and color palette"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">Brand style guide — logo grid, typography & color system
+                          </div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Selected Primary Logo Concept</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Official Brand Kit & SVG Asset Pack</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 80%"></div>
+                              </div>
+                              <span class="metric-value">80%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 75%"></div>
+                              </div>
+                              <span class="metric-value">75%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                          <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                          <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                        </svg>
+                        <span>04</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Collateral & Marketing Kits</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Canva Pro</span>
+                            <span class="wf-tool-tag">Photoshop</span>
+                            <span class="wf-tool-tag">Illustrator</span>
+                          </div>
+                        </div>
+                        <p>Extending identity assets into social media layout templates, bespoke product packaging
+                          concepts, and high-converting marketing graphic cards.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_gd_step4.png"
+                            alt="Branded product packaging lineup with coffee pouches and skincare bottles on display shelf"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">Product packaging & brand collateral kit production</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Brand Book & Styling System</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Print/Social Marketing Layouts</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 90%"></div>
+                              </div>
+                              <span class="metric-value">90%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 55%"></div>
+                              </div>
+                              <span class="metric-value">55%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                        <span>05</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Pre-Flight QA & Delivery</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Acrobat Pro</span>
+                            <span class="wf-tool-tag">Google Drive</span>
+                            <span class="wf-tool-tag">Git Docs</span>
+                          </div>
+                        </div>
+                        <p>Validating printing formats, organizing clean layers inside vector source files, structuring
+                          asset folders, and delivering RGB/CMYK ready packages.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_gd_step5.png"
+                            alt="Designer organizing vector files in Illustrator with print marks and CMYK color setup visible"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">Pre-flight QA — vector layer organization & CMYK delivery
+                          </div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Completed Visual Assets</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Archived Print-Ready Vector Packages</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 30%"></div>
+                              </div>
+                              <span class="metric-value">30%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 90%"></div>
+                              </div>
+                              <span class="metric-value">90%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Web Designing Workflow -->
+                <div class="workflow-pane" id="wf-web-design">
+                  <div class="workflow-timeline">
+                    <!-- Step 1 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span>01</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Layout Design & Auto-Layout</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Figma</span>
+                            <span class="wf-tool-tag">Auto-Layout</span>
+                            <span class="wf-tool-tag">Grid Sheets</span>
+                          </div>
+                        </div>
+                        <p>Designing wireframes and responsive landing page models in Figma, using flexible auto-layout
+                          structures to ensure grid parity across screens.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <img src="assets/wf_web_step1.png"
+                            alt="Figma auto-layout desktop and mobile wireframe design with 12-column grid system"
+                            class="wf-step-img" loading="lazy">
+                          <div class="wf-step-img-caption">Figma auto-layout wireframing with responsive grid system
+                          </div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Web Copy & Theme Directives</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Desktop/Mobile High-Fi Mockups</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 45%"></div>
+                              </div>
+                              <span class="metric-value">45%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <path d="M12 20h9"></path>
+                          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                        <span>02</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Responsive Frontend Setup</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">HTML5</span>
+                            <span class="wf-tool-tag">Tailwind CSS</span>
+                            <span class="wf-tool-tag">CSS Flex/Grid</span>
+                          </div>
+                        </div>
+                        <p>Translating visual boards into clean code with HTML5 and Vanilla CSS/Tailwind, mapping
+                          layouts utilizing Flexbox, CSS Grid, and media query controls.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <rect width="400" height="220" fill="#0f172a" />
+                              <rect x="20" y="15" width="360" height="190" rx="8" fill="#1e293b" />
+                              <rect x="30" y="25" width="60" height="8" rx="2" fill="#f97316" opacity="0.8" />
+                              <text x="30" y="60" fill="#38bdf8" font-size="11" font-family="monospace">&lt;div
+                                class="grid</text>
+                              <text x="30" y="78" fill="#60a5fa" font-size="11" font-family="monospace">
+                                grid-cols-12</text>
+                              <text x="30" y="96" fill="#60a5fa" font-size="11" font-family="monospace"> gap-6
+                                px-8"&gt;</text>
+                              <text x="30" y="114" fill="#34d399" font-size="11" font-family="monospace"> @media
+                                (max-width:</text>
+                              <text x="30" y="132" fill="#34d399" font-size="11" font-family="monospace"> 768px) { ...
+                                }</text>
+                              <text x="30" y="150" fill="#f8fafc" font-size="11" font-family="monospace"> display:
+                                flex;</text>
+                              <text x="30" y="168" fill="#f8fafc" font-size="11" font-family="monospace"> flex-wrap:
+                                wrap;</text>
+                              <rect x="220" y="30" width="150" height="80" rx="4" fill="#1d4ed8" opacity="0.3"
+                                stroke="#3b82f6" stroke-width="1" />
+                              <text x="295" y="75" text-anchor="middle" fill="#93c5fd" font-size="11"
+                                font-family="sans-serif">LIVE PREVIEW</text>
+                              <rect x="220" y="120" width="70" height="40" rx="4" fill="#0055ff" opacity="0.25"
+                                stroke="#3b82f6" stroke-width="1" />
+                              <rect x="300" y="120" width="70" height="40" rx="4" fill="#0ea5e9" opacity="0.25"
+                                stroke="#38bdf8" stroke-width="1" />
+                              <text x="200" y="212" text-anchor="middle" fill="#475569" font-size="10"
+                                font-family="monospace" font-style="italic">HTML5 + CSS Grid/Flexbox + Tailwind
+                                responsive setup</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">HTML5 semantic code with CSS Grid & Tailwind responsive setup
+                          </div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Figma Visual Files</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Clean Semantic Layout Code</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 45%"></div>
+                              </div>
+                              <span class="metric-value">45%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 85%"></div>
+                              </div>
+                              <span class="metric-value">85%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polyline points="16 18 22 12 16 6"></polyline>
+                          <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <span>03</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>CMS & Animation Tuning</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Webflow</span>
+                            <span class="wf-tool-tag">WordPress</span>
+                            <span class="wf-tool-tag">GSAP</span>
+                          </div>
+                        </div>
+                        <p>Integrating Webflow or WordPress CMS platforms, configuring collection fields, and
+                          implementing smooth scroll triggers and hover animations.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <rect width="400" height="220" fill="#0a0f1e" />
+                              <rect x="20" y="20" width="170" height="100" rx="6" fill="#1e293b" />
+                              <text x="105" y="45" text-anchor="middle" fill="#7dd3fc" font-size="11"
+                                font-family="sans-serif" font-weight="600">WEBFLOW CMS</text>
+                              <rect x="35" y="55" width="140" height="12" rx="3" fill="#0ea5e9" opacity="0.5" />
+                              <rect x="35" y="75" width="100" height="8" rx="3" fill="#334155" />
+                              <rect x="35" y="90" width="120" height="8" rx="3" fill="#334155" />
+                              <rect x="35" y="105" width="80" height="8" rx="3" fill="#334155" />
+                              <rect x="210" y="20" width="170" height="100" rx="6" fill="#1e293b" />
+                              <text x="295" y="45" text-anchor="middle" fill="#7dd3fc" font-size="11"
+                                font-family="sans-serif" font-weight="600">ANIMATIONS</text>
+                              <path d="M225 80 Q260 55 295 80 Q330 105 365 80" stroke="#0ea5e9" stroke-width="2"
+                                fill="none" />
+                              <circle cx="225" cy="80" r="4" fill="#0ea5e9" />
+                              <circle cx="295" cy="80" r="4" fill="#0ea5e9" />
+                              <circle cx="365" cy="80" r="4" fill="#0ea5e9" />
+                              <text x="295" y="118" text-anchor="middle" fill="#38bdf8" font-size="10"
+                                font-family="monospace">GSAP ScrollTrigger</text>
+                              <rect x="20" y="135" width="360" height="60" rx="6" fill="#1e293b" />
+                              <text x="200" y="163" text-anchor="middle" fill="#94a3b8" font-size="11"
+                                font-family="sans-serif">CMS Collections · Hover States · Scroll-linked Triggers</text>
+                              <text x="200" y="182" text-anchor="middle" fill="#475569" font-size="10"
+                                font-family="monospace">gsap.to('.element', { scrollTrigger: { ... } })</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">Webflow CMS setup with GSAP scroll animations</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Responsive Static Pages</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Dynamic Animated CMS Web App</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 80%"></div>
+                              </div>
+                              <span class="metric-value">80%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 85%"></div>
+                              </div>
+                              <span class="metric-value">85%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                          <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                          <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                        </svg>
+                        <span>04</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Performance & SEO Audits</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Lighthouse</span>
+                            <span class="wf-tool-tag">Schema.org</span>
+                            <span class="wf-tool-tag">Web Vitals</span>
+                          </div>
+                        </div>
+                        <p>Structuring clean SEO headings, compressing graphic media formats, caching, and optimizing
+                          code loops to score green in Core Web Vitals audits.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <rect width="400" height="220" fill="#0a1628" />
+                              <text x="200" y="40" text-anchor="middle" fill="#94a3b8" font-size="13"
+                                font-family="sans-serif" font-weight="600">LIGHTHOUSE AUDIT REPORT</text>
+                              <circle cx="85" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                opacity="0.2" />
+                              <circle cx="85" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                stroke-dasharray="220 40" stroke-dashoffset="15" />
+                              <text x="85" y="112" text-anchor="middle" fill="#22c55e" font-size="20"
+                                font-family="sans-serif" font-weight="900">97</text>
+                              <text x="85" y="127" text-anchor="middle" fill="#86efac" font-size="9"
+                                font-family="sans-serif">PERF</text>
+                              <circle cx="185" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                opacity="0.2" />
+                              <circle cx="185" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                stroke-dasharray="210 50" stroke-dashoffset="15" />
+                              <text x="185" y="112" text-anchor="middle" fill="#22c55e" font-size="20"
+                                font-family="sans-serif" font-weight="900">95</text>
+                              <text x="185" y="127" text-anchor="middle" fill="#86efac" font-size="9"
+                                font-family="sans-serif">A11Y</text>
+                              <circle cx="285" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                opacity="0.2" />
+                              <circle cx="285" cy="115" r="40" fill="none" stroke="#22c55e" stroke-width="6"
+                                stroke-dasharray="230 30" stroke-dashoffset="15" />
+                              <text x="285" y="112" text-anchor="middle" fill="#22c55e" font-size="20"
+                                font-family="sans-serif" font-weight="900">99</text>
+                              <text x="285" y="127" text-anchor="middle" fill="#86efac" font-size="9"
+                                font-family="sans-serif">SEO</text>
+                              <circle cx="365" cy="115" r="25" fill="none" stroke="#22c55e" stroke-width="4"
+                                opacity="0.2" />
+                              <circle cx="365" cy="115" r="25" fill="none" stroke="#22c55e" stroke-width="4"
+                                stroke-dasharray="140 20" stroke-dashoffset="10" />
+                              <text x="365" y="112" text-anchor="middle" fill="#22c55e" font-size="14"
+                                font-family="sans-serif" font-weight="900">96</text>
+                              <text x="365" y="127" text-anchor="middle" fill="#86efac" font-size="8"
+                                font-family="sans-serif">BEST</text>
+                              <text x="200" y="210" text-anchor="middle" fill="#334155" font-size="10"
+                                font-family="monospace">Google Lighthouse · Web Vitals · Schema.org SEO</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">Lighthouse Core Web Vitals green scores after optimization
+                          </div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Active Unoptimized Site Pages</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">SEO Semantic & Core-Optimized Site</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 20%"></div>
+                              </div>
+                              <span class="metric-value">20%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 90%"></div>
+                              </div>
+                              <span class="metric-value">90%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="workflow-step">
+                      <div class="step-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5"
+                          fill="none">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                        <span>05</span>
+                      </div>
+                      <div class="step-content">
+                        <div class="wf-step-header">
+                          <h4>Hosting & Launch Operations</h4>
+                          <div class="wf-step-tags">
+                            <span class="wf-tool-tag">Netlify</span>
+                            <span class="wf-tool-tag">Cloudflare</span>
+                            <span class="wf-tool-tag">Vercel</span>
+                          </div>
+                        </div>
+                        <p>Configuring DNS records, setting up Cloudflare CDN proxies and SSL security, activating
+                          automated deployments, and connecting tracking scripts.</p>
+
+                        <div class="wf-step-image-wrapper">
+                          <div class="wf-step-img-placeholder">
+                            <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"
+                              preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                              <rect width="400" height="220" fill="#0a0f1e" />
+                              <rect x="20" y="20" width="170" height="85" rx="6" fill="#1e293b" />
+                              <text x="105" y="42" text-anchor="middle" fill="#22d3ee" font-size="10"
+                                font-family="sans-serif" font-weight="600">NETLIFY DEPLOY</text>
+                              <rect x="30" y="52" width="80" height="12" rx="2" fill="#16a34a" opacity="0.8" />
+                              <text x="70" y="62" text-anchor="middle" fill="white" font-size="9"
+                                font-family="sans-serif">✓ BUILD SUCCESS</text>
+                              <text x="35" y="82" fill="#64748b" font-size="9" font-family="monospace">git push origin
+                                main</text>
+                              <text x="35" y="97" fill="#22d3ee" font-size="9" font-family="monospace">→
+                                Deploying...</text>
+                              <rect x="210" y="20" width="170" height="85" rx="6" fill="#1e293b" />
+                              <text x="295" y="42" text-anchor="middle" fill="#f97316" font-size="10"
+                                font-family="sans-serif" font-weight="600">CLOUDFLARE CDN</text>
+                              <path d="M225 65 Q250 50 270 65 Q290 80 310 65 Q330 50 375 65" stroke="#f97316"
+                                stroke-width="2" fill="none" opacity="0.8" />
+                              <text x="295" y="88" text-anchor="middle" fill="#fdba74" font-size="9"
+                                font-family="sans-serif">SSL ● DNS ● CDN Proxy</text>
+                              <text x="295" y="103" text-anchor="middle" fill="#64748b" font-size="8"
+                                font-family="monospace">HTTPS secured</text>
+                              <rect x="20" y="120" width="360" height="75" rx="6" fill="#1e293b" />
+                              <text x="60" y="148" fill="#a78bfa" font-size="10" font-family="sans-serif">📡 DNS A
+                                Record: 104.21.x.x</text>
+                              <text x="60" y="168" fill="#94a3b8" font-size="10" font-family="sans-serif">⚡ Vercel Edge
+                                Network Active</text>
+                              <text x="60" y="185" fill="#22c55e" font-size="10" font-family="sans-serif">✓ Production
+                                domain live</text>
+                            </svg>
+                          </div>
+                          <div class="wf-step-img-caption">Netlify deploy + Cloudflare SSL/CDN production setup</div>
+                        </div>
+
+                        <div class="wf-infographic">
+                          <div class="wf-io-flow">
+                            <div class="wf-io-node input">
+                              <span class="io-title">INPUT</span>
+                              <span class="io-desc">Built Site & Target Domain URI</span>
+                            </div>
+                            <div class="wf-io-arrow">➔</div>
+                            <div class="wf-io-node output">
+                              <span class="io-title">OUTPUT</span>
+                              <span class="io-desc">Secured Production CDN Live Launch</span>
+                            </div>
+                          </div>
+                          <div class="wf-metrics">
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Creative Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-red" style="width: 10%"></div>
+                              </div>
+                              <span class="metric-value">10%</span>
+                            </div>
+                            <div class="wf-metric-row">
+                              <span class="metric-name">Technical Focus</span>
+                              <div class="metric-progress-wrapper">
+                                <div class="metric-progress fill-blue" style="width: 95%"></div>
+                              </div>
+                              <span class="metric-value">95%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subtab 5: Packages & Pricing -->
+          <div id="home-pricing" class="subtab-content">
+            <div class="subtab-header">
+              <h3 class="subtab-title">Packages & <span class="accent-serif">Pricing</span></h3>
+            </div>
+            <div class="pricing-grid">
+              <div class="pricing-card">
+                <div class="pricing-icon">💻</div>
+                <h4>Starter Plan</h4>
+                <div class="price">$250<span>/month</span></div>
+                <ul class="pricing-features">
+                  <li>Admin support (emails, scheduling, data entry)</li>
+                  <li>Social media assistance (caption writing, posting)</li>
+                  <li>Up to 20 hours/month</li>
+                </ul>
+                <button class="btn btn-primary btn-subscribe">Subscribe</button>
+              </div>
+              <div class="pricing-card highlighted">
+                <div class="pricing-icon">📈</div>
+                <h4>Growth Plan</h4>
+                <div class="price">$500<span>/month</span></div>
+                <ul class="pricing-features">
+                  <li>Admin + social media support</li>
+                  <li>Creative assistance (graphics, visuals, organization)</li>
+                  <li>Video editing for reels</li>
+                  <li>Up to 40 hours/month</li>
+                </ul>
+                <button class="btn btn-primary btn-subscribe">Subscribe</button>
+              </div>
+              <div class="pricing-card">
+                <div class="pricing-icon">⭐</div>
+                <h4>Premium Plan</h4>
+                <div class="price">$800<span>/month</span></div>
+                <ul class="pricing-features">
+                  <li>All-in support: admin, creative, video & social media</li>
+                  <li>Content repurposing & brand consistency</li>
+                  <li>Up to 60 hours/month</li>
+                </ul>
+                <button class="btn btn-primary btn-subscribe">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: Works & Projects -->
+      <section id="view-projects" class="tab-view">
+        <div class="view-header">
+          <div class="profile-badge">Works & Projects</div>
+          <h2 class="view-title">My <span class="accent-serif">Works</span></h2>
+          <p class="view-subtitle">Select any project below to launch its interactive live simulation or view visual
+            design highlights.</p>
+        </div>
+
+        <div id="projects-carousel-wrapper" class="projects-carousel-wrapper">
+          <!-- App Development Section -->
+          <div class="projects-carousel-section" id="section-app-development">
+            <h3 class="carousel-section-title">App Development</h3>
+            <div class="app-dev-layout">
+              <div class="app-dev-card-side" id="apps-carousel-track">
+                <!-- App project cards rendered here -->
+              </div>
+
+              <!-- Phone Emulator Mockup -->
+              <div class="tablet-emulator-wrapper">
+                <div class="phone-device">
+                  <!-- Phone Top Notch/Island -->
+                  <div class="phone-dynamic-island">
+                    <div class="phone-camera-dot"></div>
+                  </div>
+                  <div class="tablet-screen">
+                    <iframe id="phone-iframe" src="apps/lumina/" frameborder="0"></iframe>
+                    <div class="tablet-overlay-demo">
+                      <div class="demo-dot" id="demo-cursor-dot"></div>
+                    </div>
+                  </div>
+                  <!-- Phone Bottom Bar -->
+                  <div class="phone-bottom-bar">
+                    <div class="phone-home-indicator"></div>
+                  </div>
+                </div>
+                <div class="tablet-tip">🎮 Autoplay Demo: Exploring scripture study tabs and markdown note cards</div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Branding Designs Section -->
+          <div class="projects-carousel-section" id="section-branding-designs">
+            <h3 class="carousel-section-title">Branding Designs</h3>
+            <div class="carousel-container">
+              <button class="carousel-btn prev-btn" id="branding-prev-btn"
+                aria-label="Previous design">&lsaquo;</button>
+              <div class="carousel-track" id="branding-carousel-track">
+                <!-- Design project cards rendered here -->
+              </div>
+              <button class="carousel-btn next-btn" id="branding-next-btn" aria-label="Next design">&rsaquo;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- VIEW 5: Contact Form -->
+      <section id="view-contact" class="tab-view">
+        <div class="view-header">
+          <div class="profile-badge">Let's Build</div>
+          <h2 class="view-title">Get in <span class="accent-serif">Touch</span></h2>
+        </div>
+        <div class="view-content-wrapper">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Collaborate on a project</h3>
+              <p>Have an application idea or need high-performance mobile engineering? Send me a message and let's
+                discuss details.</p>
+              <div class="contact-details-list">
+                <div class="detail-item">
+                  <span class="detail-icon">📬</span>
+                  <div>
+                    <h5>GitHub Repository</h5>
+                    <a href="https://github.com/johnpaulodymoscofreelance-jpg/lumina-app"
+                      target="_blank">johnpaulodymoscofreelance-jpg</a>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-icon">💬</span>
+                  <div>
+                    <h5>Status</h5>
+                    <p>Available for freelance projects</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form" id="contact-form"
+              onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" rows="5" placeholder="How can I help you?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Interactive Project Preview Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="btn-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+
+      <div class="modal-body">
+        <!-- Left Column: Iframe Device Simulator -->
+        <div class="simulator-pane" id="modal-simulator-pane">
+          <div class="device-frame">
+            <div class="device-notch"></div>
+            <div class="device-screen">
+              <div id="simulator-fallback" class="simulator-error">
+                <h3>Loading Simulator...</h3>
+                <p>Establishing native web instance.</p>
+              </div>
+              <iframe id="project-iframe" class="app-iframe" src="" frameborder="0"></iframe>
+            </div>
+            <div class="device-home-bar"></div>
+          </div>
+          <div class="simulator-tip">🖱️ Click and drag to interact just like a phone</div>
+        </div>
+
+        <!-- Left Column (Alternate): Graphic Design Showcase -->
+        <div class="design-gallery-pane" id="modal-design-pane" style="display: none;">
+          <div class="design-gallery-wrapper">
+            <img id="modal-design-img" src="" alt="Graphic Design Showcase" class="design-gallery-img">
+          </div>
+          <div class="design-gallery-tip">✨ High-resolution Behance project cover</div>
+        </div>
+
+        <!-- Right Column: Project Info & Feature Specs -->
+        <div class="details-pane">
+          <div id="modal-project-tags" class="project-tags"></div>
+          <h2 id="modal-project-title" class="project-title">Project Name</h2>
+          <p id="modal-project-tagline" class="project-tagline">Project Tagline</p>
+
+          <div class="divider"></div>
+
+          <p id="modal-project-description" class="project-description">Detailed description goes here...</p>
+
+          <div class="features-box">
+            <h3>Key Highlights</h3>
+            <ul id="modal-project-features" class="features-list"></ul>
+          </div>
+
+          <div class="actions-box">
+            <a id="btn-github" href="#" target="_blank" class="btn btn-primary">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+              View Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

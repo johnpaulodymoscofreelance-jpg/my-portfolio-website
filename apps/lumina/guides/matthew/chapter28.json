@@ -1,0 +1,194 @@
+{
+  "book": "Matthew",
+  "chapter": "28",
+  "chapter_context": {
+    "summary": "The resurrection of Jesus and the Great Commission.",
+    "outline": [
+      {
+        "ref": "28:1-10",
+        "text": "Jesus Has Risen",
+        "explanation": "This section focuses on Jesus Has Risen (28:1-10), highlighting its theological significance and showing how it develops the central message of Matthew."
+      },
+      {
+        "ref": "28:11-20",
+        "text": "The Guards' Report and The Great Commission",
+        "explanation": "This section focuses on The Guards' Report and The Great Commission (28:11-20), highlighting its theological significance and showing how it develops the central message of Matthew."
+      }
+    ]
+  },
+  "cultural_historical": [
+    {
+      "title": "Matthew's Jewish Audience",
+      "text": "Matthew primarily wrote to Jewish Christians, emphasizing Jesus as the long-awaited Messiah who fulfills Old Testament law and prophecy."
+    }
+  ],
+  "key_themes": [
+    {
+      "title": "The Great Commission",
+      "description": "Jesus sends His followers to make disciples of all nations."
+    }
+  ],
+  "devotional": [
+    {
+      "question": "What does chapter 28 teach you about the character of Jesus?"
+    },
+    {
+      "question": "How can you apply the teachings of this chapter to your daily life?"
+    }
+  ],
+  "verse_data": {
+    "19": {
+      "commentary": "### Tyndale Study Notes\n28:19 go and: Literally going, a participle that supports the main imperative, make disciples. Matthew probably intended go to be understood as a separate command (as it is translated) and not as a circumstantial modifier (i.e., while you go; cp. the same construction in 9:6; Acts 10:20). • make disciples: A disciple is one who repents of sin, trusts in Jesus for salvation, and obeys his teachings. • all the nations: The mission to the Gentile nations formally began here (see Matt 10:5-6; 15:24; see also 1:1; 2:1-12; 8:5-13; 21:43; 24:14; 26:13). • Two aspects of making disciples are baptizing and teaching (28:20).. Baptism indicates public identification with, and surrender to, Jesus and the work he has done for salvation (see 3:13-17; 10:32-33; 20:28; 26:28; Acts 2:38; Rom 6:1-11; 1 Pet 3:21). • In the name of means entrance into a relationship and its benefits, which come to those who truly believe. • Father . . . Son . . . Holy Spirit: This is a formulaic expression for the nature of God as a trinity (see also 1 Cor 12:4-6; 2 Cor 13:14; Eph 4:4-6; 2 Thes 2:13-14; 1 Pet 1:2; Rev 1:4-6).\n\n### Jamieson-Fausset-Brown\nGo ye therefore, and teach all nations--rather, \"make disciples of all nations\"; for \"teaching,\" in the more usual sense of that word, comes in afterwards, and is expressed by a different term. \n\nbaptizing them in the name of the Father, and of the Son, and of the Holy Ghost--It should be, \"into the name\"; as in Co1 10:2, \"And were all baptized unto (or rather 'into') Moses\"; and Gal 3:27, \"For as many of you as have been baptized into Christ.\"",
+      "cross_references": [
+        "Acts 10:20",
+        "Acts 2:38",
+        "Cor 12:4",
+        "Cor 13:14",
+        "Eph 4:4",
+        "Gal 3:27",
+        "Matt 10:5",
+        "Pet 1:2",
+        "Pet 3:21",
+        "Rev 1:4",
+        "Rom 6:1",
+        "Thes 2:13"
+      ],
+      "full_commentary": ""
+    },
+    "1": {
+      "commentary": "### Tyndale Study Notes\n28:1-10 The discovery of the empty tomb and the various resurrection appearances are presented with different emphases in each of the four Gospels. Matthew focuses on the reunion in Galilee, the attempt on the part of the Jewish leaders to discredit the resurrection, and the significance of the resurrection for the salvation of the world.\n28:1 Mary Magdalene (see 27:56): The mention of two women as witnesses lends credibility to the historicity of the account—an inventor of tales would not have used women as witnesses, since a woman’s testimony was considered less reliable than a man’s.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "2": {
+      "commentary": "### Tyndale Study Notes\n28:1-10 The discovery of the empty tomb and the various resurrection appearances are presented with different emphases in each of the four Gospels. Matthew focuses on the reunion in Galilee, the attempt on the part of the Jewish leaders to discredit the resurrection, and the significance of the resurrection for the salvation of the world.\n28:1 Mary Magdalene (see 27:56): The mention of two women as witnesses lends credibility to the historicity of the account—an inventor of tales would not have used women as witnesses, since a woman’s testimony was considered less reliable than a man’s.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "3": {
+      "commentary": "### Jamieson-Fausset-Brown\nHis countenance--appearance. \n\nwas like lightning, and his raiment white as snow--the one expressing the glory, the other the purity of the celestial abode from which he came.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "4": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd for fear of him the keepers did shake, and became as dead men--Is the sepulchre \"sure\" now, O ye chief priests? He that sitteth in the heavens doth laugh at you.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "5": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd the angel answered and said unto the women, Fear not ye--The \"ye\" here is emphatic, to contrast their case with that of the guards. \"Let those puny creatures, sent to keep the Living One among the dead, for fear of Me shake and become as dead men (Mat 28:4); but ye that have come hither on another errand, fear not ye.\" \n\nfor I know that ye seek Jesus, which was crucified--Jesus the Crucified.",
+      "cross_references": [
+        "Mat 28:4"
+      ],
+      "full_commentary": ""
+    },
+    "6": {
+      "commentary": "### Jamieson-Fausset-Brown\nHe is not here; for he is risen, as he said--See on Luk 24:5-7. \n\nCome--as in Mat 11:28. \n\nsee the place where the Lord lay--Charming invitation! \"Come, see the spot where the Lord of glory lay: now it is an empty grave: He lies not here, but He lay there. Come, feast your eyes on it!\" But see on Joh 20:12.",
+      "cross_references": [
+        "Joh 20:12",
+        "Luk 24:5",
+        "Mat 11:28"
+      ],
+      "full_commentary": ""
+    },
+    "7": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd go quickly, and tell his disciples--For a precious addition to this, see on Mar 16:7. \n\nthat he is risen from the dead; and, behold, he goeth before you into Galilee--to which those women belonged (Mat 27:55). \n\nthere shall ye see him--This must refer to those more public manifestations of Himself to large numbers of disciples at once, which He vouchsafed only in Galilee; for individually He was seen of some of those very women almost immediately after this (Mat 28:9-10). \n\nLo, I have told you--Behold, ye have this word from the world of light!",
+      "cross_references": [
+        "Mar 16:7",
+        "Mat 27:55",
+        "Mat 28:9"
+      ],
+      "full_commentary": ""
+    },
+    "8": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd they departed quickly--Mark (Mar 16:8) says \"they fled.\" \n\nfrom the sepulchre with fear and great joy--How natural this combination of feelings! See on a similar statement of Mar 16:11. \n\nand did run to bring his disciples word--\"Neither said they anything to any man [by the way]; for they were afraid\" (Mar 16:8).\n\nAppearance to the Women (Mat 28:9-10).\n\nThis appearance is recorded only by Matthew.",
+      "cross_references": [
+        "Mar 16:11",
+        "Mar 16:8",
+        "Mat 28:9"
+      ],
+      "full_commentary": ""
+    },
+    "9": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd as they went to tell his disciples, behold, Jesus met them, saying, All hail!--the usual salute, but from the lips of Jesus bearing a higher signification. \n\nAnd they came and held him by the feet--How truly womanly!",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "10": {
+      "commentary": "### Jamieson-Fausset-Brown\nThen said Jesus unto them, Be not afraid--What dear associations would these familiar words--now uttered in a higher style, but by the same Lips--bring rushing back to their recollection! \n\ngo tell my brethren that they go into Galilee, and there shall they see me--The brethren here meant must have been His brethren after the flesh (compare Mat 13:55); for His brethren in the higher sense (see on Joh 20:17) had several meetings with Him at Jerusalem before He went to Galilee, which they would have missed if they had been the persons ordered to Galilee to meet Him.\n\nThe Guards Bribed (Mat 28:11-15).\n\nThe whole of this important portion is peculiar to Matthew.",
+      "cross_references": [
+        "Joh 20:17",
+        "Mat 13:55",
+        "Mat 28:11"
+      ],
+      "full_commentary": ""
+    },
+    "11": {
+      "commentary": "### Jamieson-Fausset-Brown\nNow when they were going--while the women were on their way to deliver to His brethren the message of their risen Lord. \n\nsome of the watch came into the city, and showed unto the chief priests all the things that were done--Simple, unsophisticated soldiers! How could ye imagine that such a tale as ye had to tell would not at once commend itself to your scared employers? Had they doubted this for a moment, would they have ventured to go near them, knowing it was death to a Roman soldier to be proved asleep when on guard? and of course that was the only other explanation of the case.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "12": {
+      "commentary": "### Tyndale Study Notes\n28:12 Such a bribe was contrary to the law (see Exod 20:16; 23:8). • elders: See study note on Matt 21:23.\n\n### Jamieson-Fausset-Brown\nAnd when they were assembled with the elders--But Joseph at least was absent: Gamaliel probably also; and perhaps others. \n\nand had taken counsel, they gave large money unto the soldiers--It would need a good deal; but the whole case of the Jewish authorities was now at stake. With what contempt must these soldiers have regarded the Jewish ecclesiastics!",
+      "cross_references": [
+        "Exod 20:16",
+        "Matt 21:23"
+      ],
+      "full_commentary": ""
+    },
+    "13": {
+      "commentary": "### Tyndale Study Notes\n28:13 stole his body: Tomb robbery was a common problem in the ancient world, so such an accusation would have been entirely believable.\n\n### Jamieson-Fausset-Brown\nSaying, Say ye, His disciples came by night, and stole him away while we slept--which, as we have observed, was a capital offense for soldiers on guard.",
+      "cross_references": [],
+      "full_commentary": ""
+    },
+    "14": {
+      "commentary": "### Jamieson-Fausset-Brown\nAnd if this come to the governor's ears--rather, \"If this come before the governor\"; that is, not in the way of mere report, but for judicial investigation. \n\nwe will persuade him, and secure you--The \"we\" and the \"you\" are emphatic here--\"we shall [take care to] persuade him and keep you from trouble,\" or \"save you harmless.\" The grammatical form of this clause implies that the thing supposed was expected to happen. The meaning then is, \"If this come before the governor--as it likely will--we shall see to it that,\" &c. The \"persuasion\" of Pilate meant, doubtless, quieting him by a bribe, which we know otherwise he was by no means above taking (like Felix afterwards, Act 24:26).",
+      "cross_references": [
+        "Act 24:26"
+      ],
+      "full_commentary": ""
+    },
+    "15": {
+      "commentary": "### Tyndale Study Notes\n28:15 still tell it today: Justin Martyr wrote to Jews of his day (about AD 165), “You have sent . . . men throughout all the world to proclaim, ‘A godless and lawless heresy has sprung from one Jesus, a Galilean deceiver, whom we crucified, but his disciples stole him by night from the tomb . . . and now [the disciples] deceive men by asserting that he has risen from the dead and ascended into heaven’” (Justin Martyr, Dialogue with Trypho 108). This misinformation probably became widespread after the disciples began to proclaim Jesus’ resurrection (see Acts 2:22-36).\n\n### Jamieson-Fausset-Brown\nSo they took the money, and did as they were taught--thus consenting to brand themselves with infamy. \n\nand this saying is commonly reported among the Jews until this day--to the date of the publication of this Gospel. The wonder is that so clumsy and incredible a story lasted so long. But those who are resolved not to come to the light will catch at straws. JUSTIN MARTYR, who flourished about A.D. 170, says, in his Dialogue with Trypho the Jew, that the Jews dispersed the story by means of special messengers sent to every country.",
+      "cross_references": [
+        "Acts 2:22"
+      ],
+      "full_commentary": ""
+    },
+    "16": {
+      "commentary": "### Jamieson-Fausset-Brown\nJESUS MEETS WITH THE DISCIPLES ON A MOUNTAIN IN GALILEE AND GIVES FORTH THE GREAT COMMISSION. (Mat 28:16-20)\n\nThen the eleven disciples went away into Galilee--but certainly not before the second week after the resurrection, and probably somewhat later. \n\ninto a mountain where Jesus had appointed them--It should have been rendered \"the mountain,\" meaning some certain mountain which He had named to them--probably the night before He suffered, when He said, \"After I am risen, I will go before you into Galilee\" (Mat 26:32; Mar 14:28). What it was can only be conjectured; but of the two between which opinions are divided--the Mount of the Beatitudes or Mount Tabor--the former is much the more probable, from its nearness to the Sea of Tiberias, where last before this the Narrative tells us that He met and dined with seven of them. (Joh 21:1, &c.). That the interview here recorded was the same as that referred to in one \n\nplace only-- Co1 15:6 --when \"He was seen of above five hundred brethren at once; of whom the greater part remained unto that day, though some were fallen asleep,\" is now the opinion of the ablest students of the evangelical history. Nothing can account for such a number as five hundred assembling at one spot but the expectation of some promised manifestation of their risen Lord: and the promise before His resurrection, twice repeated after it, best explains this immense gathering.",
+      "cross_references": [
+        "Joh 21:1",
+        "Mar 14:28",
+        "Mat 26:32",
+        "Mat 28:16"
+      ],
+      "full_commentary": ""
+    },
+    "17": {
+      "commentary": "### Tyndale Study Notes\n28:17 some of them doubted: This might be a veiled reference to Thomas (John 20:24-29), but all eleven might have experienced a mixture of both worship and doubt (see also Matt 14:31; Luke 24:10-11; John 20:24-29).\n\n### Jamieson-Fausset-Brown\nAnd when they saw him, they worshipped him; but some doubted--certainly none of \"the Eleven,\" after what took place at previous interviews in Jerusalem. But if the five hundred were now present, we may well believe this of some of them.",
+      "cross_references": [
+        "John 20:24",
+        "Luke 24:10",
+        "Matt 14:31"
+      ],
+      "full_commentary": ""
+    },
+    "18": {
+      "commentary": "### Tyndale Study Notes\n28:18 Jesus’ authority is power delegated from the Father (see 7:29; 9:6-8; 21:23-27; 26:64; John 3:35).",
+      "cross_references": [
+        "John 3:35"
+      ],
+      "full_commentary": ""
+    },
+    "20": {
+      "commentary": "### Tyndale Study Notes\n28:20 Teach: The disciples’ curriculum is comprised of all the commands of Jesus (e.g., the Sermon on the Mount, chs 5–7). The church is to be marked by its obedience to Jesus’ commands (5:17-20; 7:13-27). Jesus’ authority and presence are the basis for the disciples’ mission (see also 1:23; 18:20).\n\n### Jamieson-Fausset-Brown\nTeaching them--This is teaching in the more usual sense of the term; or instructing the converted and baptized disciples. \n\nto observe all things whatsoever I have commanded you: and, lo, I--The \"I\" here is emphatic. It is enough that I \n\nam with you alway--\"all the days\"; that is, till making converts, baptizing, and building them up by Christian instruction, shall be no more. \n\neven unto the end of the world. Amen--This glorious Commission embraces two primary departments, the Missionary and the Pastoral, with two sublime and comprehensive Encouragements to undertake and go through with them.\n\nFirst, The MISSIONARY department (Mat 28:18): \"Go, make disciples of all nations.\" In the corresponding passage of Mark (Mar 16:15) it is, \"Go ye into all the world, and preach the Gospel to every creature.\" The only difference is, that in this passage the sphere, in its world-wide compass and its universality of objects, is more fully and definitely expressed; while in the former the great aim and certain result is delightfully expressed in the command to \"make disciples of all nations.\" \"Go, conquer the world for Me; carry the glad tidings into all lands and to every ear, and deem not this work at an end till all nations shall have embraced the Gospel and enrolled themselves My disciples.\" Now, Was all this meant to be done by the Eleven men nearest to Him of the multitude then crowding around the risen Redeemer? Impossible. Was it to be done even in their lifetime? Surely not. In that little band Jesus virtually addressed Himself to all who, in every age, should take up from them the same work. Before the eyes of the Church's risen Head were spread out, in those Eleven men, all His servants of every age; and one and all of them received His commission at that moment. Well, what next? Set the seal of visible discipleship upon the converts, by \"baptizing them into the name,\" that is, into the whole fulness of the grace \"of the Father, and of the Son, and of the Holy Ghost,\" as belonging to them who believe. (See on Co2 13:14). This done, the Missionary department of your work, which in its own nature is temporary, must merge in another, which is permanent. This is\n\nSecond, The PASTORAL department (Mat 28:20): \"Teach them\"--teach these baptized members of the Church visible--\"to observe all things whatsoever I have commanded you,\" My apostles, during the three years ye have been with Me. \n\nWhat must have been the feelings which such a Commission awakened? \"WE who have scarce conquered our own misgivings--we, fishermen of Galilee, with no letters, no means, no influence over the humblest creature, conquer the world for Thee, Lord? Nay, Lord, do not mock us.\" \"I mock you not, nor send you a warfare on your own charges. For\"--Here we are brought to\n\nThird, The ENCOURAGEMENTS to undertake and go through with this work. These are two; one in the van, the other in the rear of the Commission itself.\n\nFirst Encouragement: \"All power in heaven\"--the whole power of Heaven's love and wisdom and strength, \"and all power in earth\"--power over all persons, all passions, all principles, all movements--to bend them to this one high object, the evangelization of the world: All this \"is given unto Me.\" as the risen Lord of all, to be by Me placed at your command--\"Go ye therefore.\" But there remains a\n\nSecond Encouragement: \"And lo! I am with you all the days\"--not only to perpetuity, but without one day's interruption, \"even to the end of the world,\" The \"Amen\" is of doubtful genuineness in this place. If, however, it belongs to the text, it is the Evangelist's own closing word.\n\n\n\n\n\nNext: Mark Introduction",
+      "cross_references": [
+        "Mar 16:15",
+        "Mat 28:18",
+        "Mat 28:20"
+      ],
+      "full_commentary": ""
+    }
+  }
+}
