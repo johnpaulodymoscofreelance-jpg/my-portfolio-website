@@ -1525,17 +1525,63 @@ function openProjectModal(projectId) {
     // Build and inject case study extended content as an overlay div (does NOT overwrite pane HTML)
     const cs = project.caseStudy || {};
 
+    // Overview box (AI badge)
+    const overviewHTML = cs.overview
+      ? `<div class="cs-overview-box"><span class="cs-ai-badge">🤖 AI-Built Project</span><p>${cs.overview}</p></div>`
+      : "";
+
+    // Metrics
     const metricsHTML = (cs.metrics || []).map(m =>
       `<div class="cs-metric"><span class="cs-metric-num">${m.num}</span><span class="cs-metric-label">${m.label}</span></div>`
     ).join("");
 
+    // Tech stack (3 groups)
+    const techGroups = [
+      { heading: "⚙️ Core Architecture", items: (cs.techStack && cs.techStack.core) || [] },
+      { heading: "🗄️ Backend & Data",    items: (cs.techStack && cs.techStack.backend) || [] },
+      { heading: "🤖 AI Development",    items: (cs.techStack && cs.techStack.ai) || [] }
+    ];
+    const techHTML = techGroups.filter(g => g.items.length).map(g =>
+      `<div class="cs-tech-group"><div class="cs-tech-group-heading">${g.heading}</div>` +
+      g.items.map(t =>
+        `<div class="cs-tech-row"><span class="cs-tech-icon">${t.icon}</span><span class="cs-tech-label">${t.label}</span><span class="cs-tech-value">${t.value}</span></div>`
+      ).join("") + `</div>`
+    ).join("");
+
+    // Feature deep-dive sections
+    const featuresHTML = (cs.featureSections || []).map(sec =>
+      `<div class="cs-feature-section">` +
+      `<div class="cs-feature-section-header"><span class="cs-feature-emoji">${sec.emoji}</span>` +
+      `<div><div class="cs-feature-title">${sec.title}</div><div class="cs-feature-subtitle">${sec.subtitle}</div></div></div>` +
+      `<ul class="cs-feature-items">` +
+      sec.items.map(function(item) {
+        var colonIdx = item.indexOf(":");
+        return `<li><strong>${item.substring(0, colonIdx)}</strong>${item.substring(colonIdx)}</li>`;
+      }).join("") +
+      `</ul></div>`
+    ).join("");
+
+    // Development process sections
     const sectionsHTML = (cs.sections || []).map(s =>
       `<div class="cs-section"><h4 class="cs-section-heading">${s.title}</h4><p>${s.content}</p></div>`
     ).join("");
 
+    // Design solutions
     const solutionsHTML = (cs.solutions || []).map(s =>
       `<div class="cs-solution-card"><span class="cs-solution-icon">${s.icon}</span><div><strong>${s.title}</strong><p>${s.desc}</p></div></div>`
     ).join("");
+
+    // Lessons learned
+    const lessonsHTML = (cs.lessons || []).map(function(l) {
+      var colonIdx = l.indexOf(":");
+      return `<li><strong>${l.substring(0, colonIdx)}</strong>${l.substring(colonIdx)}</li>`;
+    }).join("");
+
+    // Roadmap
+    const roadmapHTML = (cs.roadmap || []).map(function(r) {
+      var colonIdx = r.indexOf(":");
+      return `<li><strong>${r.substring(0, colonIdx)}</strong>${r.substring(colonIdx)}</li>`;
+    }).join("");
 
     // Remove any previous overlay before injecting
     const existingOverlay = detailsPaneEl.querySelector("#cs-overlay");
@@ -1545,9 +1591,14 @@ function openProjectModal(projectId) {
     overlay.id = "cs-overlay";
     overlay.style.cssText = "margin-top: 20px; display: flex; flex-direction: column; gap: 16px;";
     overlay.innerHTML =
+      overviewHTML +
       (metricsHTML ? `<div class="cs-metrics-row">${metricsHTML}</div>` : "") +
-      (sectionsHTML ? `<div class="cs-sections-list">${sectionsHTML}</div>` : "") +
-      (solutionsHTML ? `<div class="cs-solutions-grid">${solutionsHTML}</div>` : "");
+      (techHTML ? `<div class="cs-section-title">🛠️ Technologies Used</div><div class="cs-tech-stack">${techHTML}</div>` : "") +
+      (featuresHTML ? `<div class="cs-section-title">✨ Feature Deep Dive</div><div class="cs-features-list">${featuresHTML}</div>` : "") +
+      (sectionsHTML ? `<div class="cs-section-title">🧠 Development Process</div><div class="cs-sections-list">${sectionsHTML}</div>` : "") +
+      (solutionsHTML ? `<div class="cs-section-title">🎯 Design Solutions</div><div class="cs-solutions-grid">${solutionsHTML}</div>` : "") +
+      (lessonsHTML ? `<div class="cs-section-title">📚 Lessons Learned</div><ul class="cs-lessons-list">${lessonsHTML}</ul>` : "") +
+      (roadmapHTML ? `<div class="cs-section-title">🚀 Roadmap & Future</div><ul class="cs-roadmap-list">${roadmapHTML}</ul>` : "");
 
     detailsPaneEl.appendChild(overlay);
 

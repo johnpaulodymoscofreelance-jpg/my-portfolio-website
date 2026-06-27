@@ -488,8 +488,8 @@ a:hover {
 .modal-card.case-study-mode .details-pane {
   padding: 50px 60px;
   overflow-y: auto;
-  max-width: 860px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   /* Hide scrollbar — keep scroll functionality intact */
   scrollbar-width: none;        /* Firefox */
   -ms-overflow-style: none;     /* IE / Edge */
@@ -512,8 +512,8 @@ a:hover {
 
 /* === Case Study Rich Content Components === */
 .cs-overview-box {
-  background: linear-gradient(135deg, rgba(99, 60, 180, 0.15), rgba(59, 130, 246, 0.1));
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(0, 85, 255, 0.08));
+  border: 1px solid rgba(0, 85, 255, 0.25);
   border-radius: 14px;
   padding: 16px 20px;
   margin: 16px 0;
@@ -524,7 +524,7 @@ a:hover {
 
 .cs-ai-badge {
   display: inline-block;
-  background: linear-gradient(90deg, #7c3aed, #3b82f6);
+  background: linear-gradient(90deg, #ef4444, #0055ff);
   color: #fff;
   font-size: 0.72rem;
   font-weight: 700;
@@ -559,7 +559,7 @@ a:hover {
 .cs-metric-num {
   font-size: 1.4rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #a78bfa, #60a5fa);
+  background: linear-gradient(135deg, #ef4444, #0055ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -585,7 +585,7 @@ a:hover {
 
 .cs-tech-stack {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 14px;
   margin-bottom: 8px;
 }
@@ -608,7 +608,7 @@ a:hover {
 
 .cs-tech-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   margin-bottom: 7px;
   font-size: 0.82rem;
@@ -633,7 +633,7 @@ a:hover {
   transition: border-color 0.2s;
 }
 
-.cs-feature-section:hover { border-color: rgba(167, 139, 250, 0.3); }
+.cs-feature-section:hover { border-color: rgba(0, 85, 255, 0.3); }
 
 .cs-feature-section-header {
   display: flex;
@@ -714,7 +714,7 @@ a:hover {
 }
 
 .cs-section:hover {
-  border-color: rgba(167, 139, 250, 0.3);
+  border-color: rgba(0, 85, 255, 0.3);
 }
 
 .cs-section-heading {
@@ -734,8 +734,20 @@ a:hover {
 
 .cs-solutions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
+}
+
+@media (max-width: 992px) {
+  .cs-solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cs-solutions-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .cs-solution-card {

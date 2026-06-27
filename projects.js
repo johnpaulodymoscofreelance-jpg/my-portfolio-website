@@ -176,7 +176,7 @@ const projects = [
     name: "Lumina App UX Case Study",
     type: "case-study",
     tagline: "Design System & Product Experience for a Local-First Bible Reader",
-    description: "A professional UX design analysis of the Lumina App ecosystem. This case study details the visual styling, cognitive design choices, accessibility adjustments, and local-first data architecture aimed at creating a completely distraction-free, ownership-centered scripture workspace.",
+    description: "Lumina is a modern, feature-rich Bible study application designed to illuminate your daily scripture reading and deepen your spiritual study. By combining classic scripture access with interactive study guides and modern technology, Lumina acts as a personal companion for deeper biblical engagement.",
     tags: ["UX Research", "UI Design", "Design System", "Case Study", "Product Design"],
     icon: "apps/lumina/favicon.ico",
     coverImage: "assets/lumina_cover.png",
@@ -191,18 +191,120 @@ const projects = [
       github: "https://github.com/johnpaulodymoscofreelance-jpg/lumina-app"
     },
     caseStudy: {
+      overview: "Lumina was conceived, architected, and coded fully utilizing AI technologies — including LLMs, advanced code assistants, and automated workflows. This project serves as a showcase of how modern artificial intelligence can accelerate full-stack application development from ideation to production.",
+      metrics: [
+        { num: "0 ms", label: "Sync Latency (Local)" },
+        { num: "100%", label: "Notes Ownership" },
+        { num: "WCAG AA", label: "Contrast Compliance" }
+      ],
+      techStack: {
+        core: [
+          { icon: "📱", label: "Framework", value: "React Native + Expo" },
+          { icon: "🟦", label: "Language", value: "TypeScript" },
+          { icon: "🗂️", label: "State", value: "Zustand + Local State" }
+        ],
+        backend: [
+          { icon: "🗄️", label: "Database", value: "SQLite (expo-sqlite)" },
+          { icon: "🌐", label: "API", value: "Bolls.life REST API" },
+          { icon: "📦", label: "Storage", value: "Expo FileSystem + pdf-lib" }
+        ],
+        ai: [
+          { icon: "🤖", label: "Code Gen", value: "Claude + GitHub Copilot" },
+          { icon: "🏗️", label: "Architecture", value: "AI-guided DB & schema design" },
+          { icon: "🧪", label: "Debugging", value: "Conversational AI coding" }
+        ]
+      },
+      featureSections: [
+        {
+          emoji: "📖",
+          title: "Multi-Translation Bible Reader & Comparison Engine",
+          subtitle: "Offline-first, gesture-powered reading with scholarly annotations",
+          items: [
+            "Parallel Multiversion Comparison: Study passages in up to three translations simultaneously with side-by-side or stacked column layouts.",
+            "Offline-First Architecture: Dynamically pulls from the Bolls API and falls back to a locally indexed SQLite database (expo-sqlite) when offline.",
+            "Scholarly Annotation System: Highlight verses with 10 curated colors, bookmark passages, and attach detailed personal notes to any verse.",
+            "Premium Custom Typography: Adjust font size, margin width, line spacing, text alignment, and paper-matched color themes (White, Sepia, Parchment, Dark).",
+            "Intuitive Gesture Controls: Navigate between chapters using natural swipe gestures powered by FlingGestureHandler."
+          ]
+        },
+        {
+          emoji: "🔍",
+          title: "Word Study — Hebrew & Greek Concordance",
+          subtitle: "Original language exploration with lexicons and phonetic vocalization",
+          items: [
+            "Interactive Inline Strong's Numbers: Toggle H/G concordance codes directly in KJV text to inspect Hebrew and Greek lemmas instantly.",
+            "Full Lexicon Support: Brown-Driver-Briggs (BDB) for Hebrew and Thayer's Lexicon for Greek with fully hyperlinked derivations.",
+            "Phonetic Speech Vocalization: Authentic pronunciation of original words using native TTS with he-IL and el-GR language parameters.",
+            "Translation Distribution Charts: Interactive SVG Donut Charts showing how a Hebrew/Greek word is translated, with tappable segment filters.",
+            "Key Word in Context (KWIC): Scan every biblical occurrence with a context grid showing surrounding words and book-level filtering."
+          ]
+        },
+        {
+          emoji: "📜",
+          title: "Ancient Manuscripts & Historical Library",
+          subtitle: "Explore texts beyond the canon — scrolls, codices, and historical records",
+          items: [
+            "Historic Manuscript Profiles: Browse profiles of foundational records including Dead Sea Scrolls, Septuagint LXX, 1 Enoch, and the Apostolic Fathers.",
+            "Canonicity & Rejection Studies: Objective academic analyses of why texts were accepted or excluded from Hebrew, Protestant, and Catholic canons.",
+            "Academic Citation Generator: Auto-format bibliographical citations in APA, MLA, and Chicago styles for academic research and essays.",
+            "Interactive Glossary System: Key terms (Codex, Septuagint, Apocrypha) are underlined and launch informative bottom-sheet definitions on tap."
+          ]
+        },
+        {
+          emoji: "🛠️",
+          title: "Flexcil-Style PDF Reader & Document Annotator",
+          subtitle: "Theological papers and manuscripts, side-by-side with scripture",
+          items: [
+            "Freehand Sketching Canvas: Draw directly on PDF pages with adjustable ink colors, stroke thickness, and precise erasing tools.",
+            "Markdown Quote Extractor: Highlight PDF text and insert it as formatted blockquotes with page numbers into your Study Notebook.",
+            "Scripture Split-Screen Panel: View the Bible side-by-side with your active PDF and insert verse citations directly into notes.",
+            "On-Device PDF Compiler: Reorganize, duplicate, delete, and reorder pages using pdf-lib to write updated PDFs back to local storage.",
+            "Interactive Outline Tree: Access embedded table of contents, custom bookmarks, and highlight history from a unified sidebar drawer."
+          ]
+        },
+        {
+          emoji: "🏛️",
+          title: "Church History & Biographical Registry",
+          subtitle: "Early controversies, councils, and the figures who shaped theology",
+          items: [
+            "Theological Controversies Registry: Explore early church debates (Arian Controversy, Nestorianism) with timelines, biblical defense guides, and historical references.",
+            "Pauline Associates Registry: Biographical database of Paul's co-workers categorized by chronology, roles, and biblical significance.",
+            "Interactive Historical Guides: Detailed guides on Ecumenical Councils, divisions of the Mosaic Law, Pauline journeys, and patriarch lifespans."
+          ]
+        },
+        {
+          emoji: "📈",
+          title: "Smart Timeline & Progress Tracker",
+          subtitle: "Gamified streaks, heatmaps, and canonical timeline navigation",
+          items: [
+            "Interactive Biblical Timeline: Scroll through when each book was written, by whom, and to whom, with direct chapter links to read.",
+            "Engagement-Based Auto-Read Tracking: Marks chapters as read when 15+ seconds are spent and 80% of text is scrolled through.",
+            "Streaks & Analytics Dashboard: Daily and yearly consistency tracking with heatmaps, streaks, and Flame/Shield/Trophy milestone badges."
+          ]
+        },
+        {
+          emoji: "📓",
+          title: "Daily Reflection Journal & WYSIWYG Notebook",
+          subtitle: "Mood-based journaling, rich text editing, and scripture-linked reflections",
+          items: [
+            "Daily Mood-Based Journaling: Log reflections with weather and mood presets (Joyful, Peaceful, Anxious, Weary) auto-matched to encouraging scriptures.",
+            "WYSIWYG Notes Editor: Full-featured Rich Text Editor (Quill-based) supporting headings, bullet lists, blockquotes, and inline links.",
+            "Personalization Engine: Seamless highlighting, bookmarking, personal journaling, and verse-of-the-day tracking across all sessions."
+          ]
+        }
+      ],
       sections: [
         {
-          title: "1. Executive Summary & Concept",
-          content: "Lumina App is designed as a sanctuary for readers who seek a deep, distraction-free environment for scripture study. Traditional reading apps suffer from notification overload, cluttered visual interfaces, and invasive cloud backups that strip users of data ownership. Lumina changes this paradigm by placing the reader in complete control of their files, theme preferences, and research logs."
+          title: "🤖 AI Prompt Engineering & Architecture",
+          content: "Development started by feeding detailed system prompts into AI models to generate highly optimized schemas for complex Bible datasets (verses, chapters, translations). AI guided the entire database modeling and component structure from the ground up."
         },
         {
-          title: "2. The Design Challenge",
-          content: "How do we create an digital experience that balances cognitive ease with functional utility? Reading ancient, dense texts requires deep focus, but researchers also need toolings (commentaries, definitions, cross-references). Visual design must guide without interrupting, and technical design must guarantee privacy."
+          title: "🎨 Rapid UI/UX Prototyping",
+          content: "AI assistants generated clean component layouts with heavy focus on typography and spacing to minimize eye strain during long-form reading sessions, enabling rapid design iteration cycles."
         },
         {
-          title: "3. User Research & Pain Points",
-          content: "Through interviews with daily readers, we extracted three main friction points: (1) Eye strain during prolonged night studies on bright or poorly calibrated dark screens, (2) The distraction of switching tabs or apps to look up biblical greek/hebrew terms, and (3) Concern about losing personal notes if cloud-hosted services change pricing structures or suffer downtime."
+          title: "🔧 Iterative Feature Integration & Debugging",
+          content: "Utilized conversational AI coding to iteratively implement state-heavy features like offline storage, highlighting systems, and the interactive study guide engine — using AI to rapidly debug complex console errors and logic issues."
         }
       ],
       solutions: [
@@ -227,10 +329,14 @@ const projects = [
           desc: "Tailored daytime sepia tones resembling paper texture, and deep navy dark mode that complies with WCAG AA accessibility rules."
         }
       ],
-      metrics: [
-        { num: "0 ms", label: "Sync Latency (Local)" },
-        { num: "100%", label: "Notes Ownership" },
-        { num: "WCAG AA", label: "Contrast Compliance" }
+      lessons: [
+        "The Power of AI-Driven Development: Learned to effectively act as a 'Software Architect,' using AI to skip tedious boilerplate coding and focus on logic, application flow, and user experience.",
+        "Optimizing Large Datasets: Working with the extensive text database of the Bible taught the importance of local caching, efficient indexing, and pagination to prevent memory leaks on mobile and web clients."
+      ],
+      roadmap: [
+        "Advanced AI-Powered Search: Implement vector embeddings to allow semantic, concept-based searching (e.g., searching for 'peace in hard times' without needing exact keyword matches).",
+        "Audio Bible Integration: Add text-to-speech or streaming audio tracks for hands-free listening during commutes or rest.",
+        "Social Study Groups: Implement shared reading plans where communities or friends can sync progress and share notes in real time."
       ]
     }
   }
